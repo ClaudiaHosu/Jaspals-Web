@@ -1,7 +1,7 @@
 <%@ include file="header.jsp" %>
 
 <!--Introduction--> 
-<section class="hero">
+<section class="hero homepage">
   <div class="container-fluid">
 
     <div id="boxes"><!--BOXES-->
@@ -29,11 +29,9 @@
     </div><!--END BOXES -->
 
     <div class="row-button">  
-      <a href="/about.html">
+      <a href="${pageContext.request.contextPath}/html/about.jsp">
       <button class="square-button">
-        <p>More about us 
-        &nbsp;&nbsp;&nbsp;
-        &#10095;<p>
+        <p>More about us &nbsp;&nbsp;&nbsp;&#10095;<p>
       </button>
       </a>
     </div>
