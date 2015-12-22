@@ -26,7 +26,7 @@ a{
 
 /*HERO SECTION */
 .hero{
-  background-image: url("${pageContext.request.contextPath}/assets/sunset.jpg");
+  background-image: url("../assets/sunset.jpg");
   background-size: cover;
   padding: 20px 0 30px 20px;
   z-index: -1;
@@ -73,7 +73,7 @@ a{
 
 /*ABOUT PAGE  */
 .about .hero{
-  background-image: url("../img/jaspal-photo.png");
+  background-image: url("../assets/jaspal-photo.png");
   background-size: contain;
   background-position: center;
 }
@@ -126,7 +126,7 @@ a{
   vertical-align: middle;
 }
 #founder .picture{
-  background-image: url("../img/susan-photo.png");
+  background-image: url("../assets/susan-photo.png");
   background-size: cover;
   border-radius:100%; 
   background-color:blue; 
