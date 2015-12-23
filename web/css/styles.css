@@ -70,85 +70,26 @@ a{
   margin-top: -20px;
 }
 
-
-/*ABOUT PAGE  */
-.about .hero{
-  background-image: url("../assets/jaspal-photo.png");
-  background-size: contain;
-  background-position: center;
+/*ABOUT PAGE */
+.aboutpage .textbox{
+  width: 500px;
+  padding-right: 5em; 
 }
-.about .hero h1, 
-.about div.textbox{
-  text-align: left;
+.aboutpage div.row-left{
+  width: 680px;
 }
-#content{
-  margin-bottom: 15px;
+.aboutpage .picturebox img{
+  width: 250px;
+  float: right;
+  margin-top: -713px;
 }
-#content .main{
-  width:70%;
-  display:inline-block;
-  position:relative;
-  float:left;
-}
-
-/*ABOUT SIDEBAR*/
-#content .sidebar{
-  width: 29%;
-  display:inline-block;
-  position:relative;
-  padding-bottom: 28em;
-  float:right;
-}
-.sidebar .title{
-  border-bottom: 2px solid blue;
-  width: 70%;
-}
-.sidebar .title p{
-  margin: 0px;
-}
-.sidebar p{
-  width:70%;
-}
-#donategraph{
-  border-radius: 100%;
-  background-color: #696969;
-  width: 200px;
-  height: 200px;
-  margin: 15px 0;
-}
-#founder{
-  width: 280px;
-  height: 60px;
-}
-#founder div{
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
-#founder .picture{
-  background-image: url("../assets/susan-photo.png");
-  background-size: cover;
-  border-radius:100%; 
-  background-color:blue; 
-  height:60px; 
-  width:60px;
-  padding: 20px;
-}
-#founder .name{
-  width:8em;
-  padding-left: 2em;
-}
-#founder p{
-  margin: 0;
-}
-
-/* SLIDER */
-.slider{
-  padding: 20px 0 0 0;
+.aboutpage .row-button{
+  margin-left: 370px;
 }
 
 
-/*Interaction on buttons*/
+
+/*BUTTONS*/
 button:hover{
   background-color: #deeff5;
 }
@@ -182,20 +123,8 @@ button p{
 
 
 
-@media (min-width: 768px) {
-  .container {
-    width: 100%;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-  }
+.container{
+  width: 100%;
 }
 .container-fluid {
   padding-right: 15px;
@@ -206,34 +135,16 @@ button p{
   margin-right: 15px;
   margin-left: 15px;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left;
-}
-.col-xs-12 {
-  width: 100%;
-}
 
-
-/* Other bs styling */
-
+/* EXTRA BOOTSTRAP */
 body {
   margin: 15;
 }
 
-article,
 footer,
 header,
-main,
-menu,
 nav,
-section,
-summary {
+section {
   display: block;
 }
 h1 {
@@ -245,14 +156,12 @@ img {
 }
 button,
 html input[type="button"],
-input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 html {
   font-size: 17px;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 img {
