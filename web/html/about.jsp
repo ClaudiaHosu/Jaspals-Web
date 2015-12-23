@@ -1,13 +1,13 @@
 <%@ include file="header.jsp" %>
 
-<!--Introduction-->
+<!--Introduction--> 
 <section class="hero">
   <div class="container-fluid">
 
     <div id="boxes"><!--BOXES-->
     
       <div id="heading">
-        <h1>About</h1>
+        <h1>About us</h1>
       </div>
       
         <div class="row-left">
@@ -21,7 +21,7 @@
           </p>
 
           <p>
-            My aim is to raise &pound;5,000 to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
+            Jaspals’s voice is a non-profit organisation set up to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
           </p>
 
           <p>Please help me achieve this.</p>
