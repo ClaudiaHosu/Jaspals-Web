@@ -156,6 +156,8 @@ button p{
 /* EXTRA BOOTSTRAP */
 body {
   margin: 15;
+  position: relative;
+  min-height: 100%;
 }
 
 footer,

@@ -67,14 +67,16 @@ nav{
 }
 
 /*FOOTER*/
-.grey{
+
+#footer{
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  display:block;
   background-color: #6D6D6D;
   padding: 0 20px 0 20px;
   margin: 0 -30px 0 -30px;
-  overflow:auto;
-}
-#footer{
-  display:block;
+  overflow:hidden;
 }
 #footer #content{
   display:block;
@@ -89,7 +91,7 @@ nav{
 #footer .bottom-nav{
   padding-top: 0.35em;
   text-align: left;
-  padding-left: 5em
+  padding-left: 5em;
 }
 #footer .social{
   padding-top: 1.5em;
@@ -117,7 +119,6 @@ nav{
   font-size: 15px;
   font-family: "Cabin";
 }
-
 .bottom-nav img.logo{
   padding-top: 14px;
 }
