@@ -4,7 +4,7 @@ h1, h2, h3, h4, p {
   color: #5C5C5C;
 }
 h1{
-  font:'Cabin semibold';
+  font:'Cabin Semibold';
   font-size: 36px;
   margin-bottom: -2.5em;
   padding-top: 1em;
@@ -12,7 +12,7 @@ h1{
 }
 h2{
   font-size: 20px;
-  font:'Cabin regular';
+  font:'Cabin Regular';
 }
 section .textbox{
   padding: 1em 2em 1em 2em;
@@ -26,7 +26,7 @@ a{
 
 /*HERO SECTION */
 .hero{
-  background-image: url("../assets/sunset.jpg");
+  background-image: url("../assets/sunset.jpeg");
   background-size: cover;
   padding: 20px 0 30px 20px;
   z-index: -1;

@@ -1,6 +1,6 @@
 <%@ include file="header.jsp" %>
 
-<!--Introduction--> 
+<!--Introduction-->
 <section class="hero">
   <div class="container-fluid">
 
@@ -21,7 +21,7 @@
           </p>
 
           <p>
-            My aim is to raise £5,000 to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
+            My aim is to raise &pound;5,000 to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
           </p>
 
           <p>Please help me achieve this.</p>
