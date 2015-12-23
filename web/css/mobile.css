@@ -30,7 +30,7 @@
   }
   .row-button, 
   .homepage .row-button,
-  .aboutpage .row-button {
+  .picpage .row-button {
     margin: 0;
   }
   #header .logo div{
@@ -44,11 +44,11 @@
   }
 
   /*ABOUT PAGE */
-  .aboutpage .textbox{
+  .picpage .textbox{
     width: 500px;
     padding-right: 2em; 
   }
-  .aboutpage .picturebox img{
+  .picpage .picturebox img{
     float: left;
     margin: 10px;
   }
@@ -79,27 +79,29 @@
 
   #header ul.nav {
     text-align: left;
-    padding-left: 105px;
+    padding-left: 2em;
   }
-  .nav li{
-    position: relative;
-    display: block;
+  .nav li {
     margin-right: 1em;
-    margin-left: 0;
-    width: 123px;
+    margin-left: 50%;
   }
   section .textbox{
     padding: 0 0.5em 0em 0.5em;
     width: 270px;
   }
-  .aboutpage .textbox{
+  .picpage .textbox{
     padding: 0 0.5em 0em 0.5em;
     width: 270px;
   }
   .aboutpage .picturebox img{
     width: 250px;
     float: left;
-    margin: 0px;
+    margin: 0;
+  }
+  .productpage .picturebox img{
+    width: 100px;
+    float: left;
+    margin: 0;
   }
   div.container-fluid{
     max-width: 100%;
@@ -119,6 +121,9 @@
     width:270px;
   }
   .aboutpage div.row-left{
+    width: 270px;
+  }
+  .productpage div.row-left {
     width: 270px;
   }
   #header .logo div{
