@@ -13,7 +13,6 @@
         <div class="row-left">
           <div class="textbox">
             <p>COMING SOON</p>
-            <p><em>This website is currently under construction</em></p>
             <p>Interested in the project? Feel you can help? Want to share your story with the community? Contact Susan on info[AT]jaspalsvoice.co.uk</p>
             
           </div>

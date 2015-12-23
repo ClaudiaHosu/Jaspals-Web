@@ -14,11 +14,10 @@
         <div class="row-left">
           <div class="textbox">
             <p>COMING SOON</p>
-            <p><em>This website is currently under construction</em></p>
-            <p>We aim to provide information and reviews of communication devices for sufferers of motor neurone disease.</p>
-            <p>Through reviews and comments we hope to get more people's stories and experiences about communicating with MND with the aim of sharing knowledge and helpful experience.</p>
-            <p>For information and support on Augmentative and Alternative Communication (AAC) for different stages of MND, <a href="http://www.mndassociation.org/forprofessionals/aac-for-mnd/what-are-the-common-aac-options/">please visit the MND Assocation.</a></p>
-            <p>For information on the different types of AAC, please visit <a href="http://www.communicationmatters.org.uk/page/what-is-aac">Communications Matters</a> </p>
+            <p>Virtual Mobile which supports Jaspal's communication technique.</p>
+            <p>We will also be giving information about communication devices recommended by the NHS to help MND patients and looking at new products available on the open market which are not available through the NHS.</p>
+            <p>A product review and rating system to capture people's opinion of the products will be included with each product. If you are using a product and you have an opinion on its effectiveness, drop us a line at <bold>info[AT]jaspalsvoice.co.uk</bold></a></p>
+            <p>Some of the products available through the NHS are available to search at: <a href="http://speechbubble.org.uk/">SpeechBubble.org</a> </p>
           </div>
         </div>
     
