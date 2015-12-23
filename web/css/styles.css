@@ -4,7 +4,7 @@ h1, h2, h3, h4, p {
   color: #5C5C5C;
 }
 h1{
-  font:'Cabin Semibold';
+  font:'Cabin semibold';
   font-size: 36px;
   margin-bottom: -2.5em;
   padding-top: 1em;
@@ -12,7 +12,7 @@ h1{
 }
 h2{
   font-size: 20px;
-  font:'Cabin Regular';
+  font:'Cabin regular';
 }
 section .textbox{
   padding: 1em 2em 1em 2em;
@@ -22,6 +22,10 @@ section .textbox{
 }
 a{
   text-decoration: none;
+}
+.textbox a{
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 /*HERO SECTION */
@@ -56,7 +60,7 @@ a{
   position:relative;
 }
 .row-right{
-  margin-left:321px;
+  margin-left: 321px;
   margin-top: -29px;
   z-index: 1;
 }
@@ -70,24 +74,32 @@ a{
   margin-top: -20px;
 }
 
-/*ABOUT PAGE */
-.aboutpage .textbox{
+/*PICTURE PAGES */
+.picpage .textbox{
   width: 500px;
   padding-right: 5em; 
 }
+.picpage .row-button{
+  margin-left: 370px;
+}
+
+/*ABOUT AND PRODUCT PAGE*/
 .aboutpage div.row-left{
-  width: 680px;
+  width: 40em;
+}
+.productpage div.row-left{
+  width: 35.3em;
 }
 .aboutpage .picturebox img{
   width: 250px;
   float: right;
-  margin-top: -713px;
+  margin-top: -45em;
 }
-.aboutpage .row-button{
-  margin-left: 370px;
+.productpage .picturebox img{
+  width: 185px;
+  float: right;
+  margin-top: -26em;
 }
-
-
 
 /*BUTTONS*/
 button:hover{

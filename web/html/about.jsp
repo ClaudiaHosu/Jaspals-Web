@@ -1,7 +1,7 @@
 <%@ include file="header.jsp" %>
 
 <!--Introduction--> 
-<section class="hero aboutpage">
+<section class="hero picpage aboutpage">
   <div class="container-fluid">
 
     <div id="boxes"><!--BOXES-->
@@ -31,7 +31,7 @@
 
         </div>
         <div class="picturebox">
-          <img src="../assets/jv-jaspal.png" >
+          <img src="../assets/jv-jaspal.png" alt="Photo of Jaspal">
         </div>
       </div>
     
@@ -49,4 +49,3 @@
 </section>
 
 <%@ include file="footer.jsp" %>
-
