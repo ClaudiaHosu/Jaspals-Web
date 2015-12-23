@@ -66,7 +66,8 @@
     display: block;
     margin-right: 1em;
     margin-left: 71%;
-    width: 118px;
+    width: 123px;
+    margin-bottom: 4px;
   }
   #header ul{
     margin-top: 0;
@@ -85,7 +86,7 @@
     display: block;
     margin-right: 1em;
     margin-left: 0;
-    width: 118px;
+    width: 123px;
   }
   section .textbox{
     padding: 0 0.5em 0em 0.5em;

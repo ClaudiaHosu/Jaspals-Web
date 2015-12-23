@@ -42,7 +42,7 @@ nav{
   width: 12em;
   height: 1em;
   border-radius: 0;
-  font: 'Cabin bold';
+  font-family: 'Cabin';
   color: #ffffff;
   font-size: 18px;
   text-shadow: 1px 1px 1px #696969;
@@ -57,6 +57,7 @@ nav{
   box-shadow: 0 0.2em 0.2em 0em #696969;
   width: 100px;
   height:20px;
+  border-bottom: none;
 }
 .nav li#donate:hover{
   background-color: blue;
