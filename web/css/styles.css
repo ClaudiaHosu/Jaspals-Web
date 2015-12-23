@@ -27,11 +27,16 @@ a{
   text-decoration: underline;
   color: #ffffff;
 }
+html { 
+  background: url("../assets/sunset.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*HERO SECTION */
 .hero{
-  background-image: url("../assets/sunset.jpeg");
-  background-size: cover;
   padding: 20px 0 30px 20px;
   z-index: -1;
   margin: -45px -10px 0 -10px;
