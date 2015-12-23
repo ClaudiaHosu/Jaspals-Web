@@ -14,7 +14,6 @@
         <div class="row-left">
           <div class="textbox">
             <p>COMING SOON</p>
-            <p><em>This website is currently under construction</em></p>
             <p>We will need volunteers in three main areas:</p>
             <ul>
               <li>Fundraising</li>
