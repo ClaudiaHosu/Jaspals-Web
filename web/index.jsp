@@ -1,1 +1,1 @@
-<jsp:forward page="under_construction.jsp" />
+<jsp:forward page="pages/home.jsp" />
