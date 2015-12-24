@@ -13,7 +13,7 @@
         <div class="row-left">
           <div class="textbox">
             <p>COMING SOON</p>
-            <p>Interested in the project? Feel you can help? Want to share your story with the community? Contact Susan on info[AT]jaspalsvoice.co.uk</p>
+            <p>Interested in the project? Feel you can help? Want to share your story with the community? Contact us at <a href="mailto:info@jaspalsvoice.co.uk"> info@jaspalsvoice.co.uk</a></p>
             
           </div>
         </div>
