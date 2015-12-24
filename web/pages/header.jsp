@@ -16,7 +16,7 @@
         
         <div class="logo area">
           <div>
-            <a href="${pageContext.request.contextPath}/html/home.jsp">
+            <a href="${pageContext.request.contextPath}/pages/home.jsp">
               <img src="${pageContext.request.contextPath}/assets/jv-header-logo.png">
             </a>
           </div>
@@ -25,12 +25,12 @@
         <!--navigation--> 
         <nav>
           <ul class="nav">
-            <a href="${pageContext.request.contextPath}/html/about.jsp"><li>ABOUT US</li></a>
-            <a href="${pageContext.request.contextPath}/html/products.jsp"><li>PRODUCTS</li></a>
-            <a href="${pageContext.request.contextPath}/html/stories.jsp"><li>STORIES</li></a>
-            <a href="${pageContext.request.contextPath}/html/volunteer.jsp"><li>GET INVOLVED</li></a>
-            <a href="${pageContext.request.contextPath}/html/faq.jsp"><li>FAQ</li></a>
-            <a href="${pageContext.request.contextPath}/html/donate.jsp"><li id="donate">Donate</li></a>
+            <a href="${pageContext.request.contextPath}/pages/about.jsp"><li>ABOUT US</li></a>
+            <a href="${pageContext.request.contextPath}/pages/products.jsp"><li>PRODUCTS</li></a>
+            <a href="${pageContext.request.contextPath}/pages/stories.jsp"><li>STORIES</li></a>
+            <a href="${pageContext.request.contextPath}/pages/volunteer.jsp"><li>GET INVOLVED</li></a>
+            <a href="${pageContext.request.contextPath}/pages/faq.jsp"><li>FAQ</li></a>
+            <a href="${pageContext.request.contextPath}/pages/donate.jsp"><li id="donate">Donate</li></a>
           </ul>
         </nav>
 
