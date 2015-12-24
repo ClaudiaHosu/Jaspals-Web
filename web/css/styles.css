@@ -138,6 +138,12 @@ button p{
   margin: 0;
 }
 
+input.paypal{
+  display: block;
+  margin-left:auto;
+  margin-right: auto
+}
+
 
 
 .container{
