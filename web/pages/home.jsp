@@ -14,7 +14,7 @@
         <div class="row-left">
           <div class="textbox story">
             <p>OUR STORY</p>
-            <p>Jaspal lived with motor neurone disease for 10 years. For most of that time she could not speak but that did not stop her communicating effectively. Her techniques of communication impressed doctors and inspired me to help others that have no voice because of motor neurone disease. Jaspals Voice was founded as a non profit organisation to share communication techniques and technology across the community. </p>
+            <p>Jaspal lived with motor neurone disease for 10 years. For most of that time she could not speak but that did not stop her communicating effectively. Her techniques of communication impressed doctors and inspired me to help others that have no voice because of motor neurone disease. Jaspal's Voice was founded as a non profit organisation to share communication techniques and technology across the community. </p>
           </div>
         </div>
 
