@@ -26,8 +26,15 @@
 
           <p>Please help me achieve this.</p>
 
-          <p><strong>Susan Graham</strong></p>
-          <p>Founder</p>
+          <div id="founder">
+            <div id="founderpicture">
+              <img src="../assets/jv-susan.png" alt="Susan Graham Jaspals Voice founder"/>
+            </div>
+            <div id="foundertext">
+              <p><strong>Susan Graham</strong></p>
+              <p>Founder</p>
+            </div>
+          </div>
 
         </div>
         <div class="picturebox">
