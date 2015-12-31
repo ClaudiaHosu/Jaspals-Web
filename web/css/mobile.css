@@ -52,6 +52,13 @@
     float: left;
     margin: 10px;
   }
+  #founder div#foundertext{
+  float:right;
+  }
+  #founder div#foundertext p{
+   margin-left: 0;
+   padding-left: 18px;
+  }
   
 }
 
@@ -123,6 +130,13 @@
   .aboutpage div.row-left{
     width: 270px;
   }
+  #founder div#foundertext{
+  float:left;
+  }
+  #founder div#foundertext p{
+    margin:0;
+  }
+
   .productpage div.row-left {
     width: 270px;
   }
