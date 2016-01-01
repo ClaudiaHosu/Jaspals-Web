@@ -14,7 +14,163 @@
     overflow: auto;
     padding: 0;
   }
-  .row-right, .row-left, .row-button, {
+  /*
+  .row-right, .row-left, .row-button {
+    width:100%;
+    margin-left: 30px;
+  }
+  */
+  .row-right{
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 2;
+  }
+  .row-right div, .row-left div{
+    float: left;
+    margin-left:0;
+    margin-top: 0;
+  }
+  .row-button, 
+  .homepage .row-button,
+  .picpage .row-button {
+    margin: 0;
+  }
+  #header .logo div{
+    margin-left: 20px;
+  }
+  .hero #heading{
+  padding: 40px 40px 20px 0px;
+  }
+  #footer #content{
+    padding-left: 25px;
+  }
+
+  /*ABOUT PAGE */
+  .picpage .textbox{
+    width: 500px;
+    padding-right: 2em; 
+  }
+  .picpage .picturebox img{
+    float: left;
+    margin: 10px;
+  }
+  #founder div#foundertext{
+  float:right;
+  }
+  #founder div#foundertext p{
+   margin-left: 0;
+   padding-left: 18px;
+  }
+  
+}
+
+@media (max-width:658px){
+
+  /* NAV */
+  #header .nav{
+    text-align: right;
+  }
+  .nav li{
+    position: relative;
+    display: block;
+    margin-right: 1em;
+    margin-left: 71%;
+    width: 123px;
+    margin-bottom: 4px;
+  }
+  #header ul{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 450px){
+
+  #header ul.nav {
+    text-align: left;
+    padding-left: 2em;
+  }
+  .nav li {
+    margin-right: 1em;
+    margin-left: 50%;
+  }
+  section .textbox{
+    padding: 0 0.5em 0em 0.5em;
+    width: 270px;
+  }
+  .picpage .textbox{
+    padding: 0 0.5em 0em 0.5em;
+    width: 270px;
+  }
+  .aboutpage .picturebox img{
+    width: 250px;
+    float: left;
+    margin: 0;
+  }
+  .productpage .picturebox img{
+    width: 100px;
+    float: left;
+    margin: 0;
+  }
+  div.container-fluid{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  .hero #heading{
+    padding:100px 40px 20px 0px;
+  }
+  .hero #heading p{
+    margin:0;
+  }
+  #boxes{
+    overflow: auto;
+    padding: 0;
+    width:270px;
+  }
+  .aboutpage div.row-left{
+    width: 270px;
+  }
+  #founder div#foundertext{
+  float:left;
+  }
+  #founder div#foundertext p{
+    margin:0;
+  }
+
+  .productpage div.row-left {
+    width: 270px;
+  }
+  #header .logo div{
+    margin-left: 10px;
+  }
+  button.square-button{
+  width: 270px;
+  height: 4em;
+  }
+  #footer #content{
+    padding-left: 15px;
+  }
+
+}
+@media (max-width: 767px) {
+
+  /*HERO SECTION */
+  .hero{
+    padding: 20px 0 30px 20px;
+    margin: -45px -10px 0 -10px;
+  }
+  .hero #heading{
+    padding: 40px 40px 20px 0px;
+  }
+
+  /*HOMEPAGE ROWS IN HERO */
+  #boxes{
+    overflow: auto;
+    padding: 0;
+  }
+  .row-right, .row-left, .row-button {
     width:100%;
     margin-left: 30px;
   }
