@@ -14,10 +14,6 @@
     overflow: auto;
     padding: 0;
   }
-  .row-right, .row-left, .row-button {
-    width:100%;
-    margin-left: 30px;
-  }
   .row-right{
     margin-left: 0;
     margin-top: 0;
