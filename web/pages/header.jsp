@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaspal's Voice</title>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon" />
     <link href="http://fonts.googleapis.com/css?family=Cabin" rel='stylesheet' rel='stylesheet' type='text/css'>
     <link href="${pageContext.request.contextPath}/css/styles.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/layout.css" type="text/css" rel="stylesheet">
