@@ -21,7 +21,7 @@
           </p>
 
           <p>
-            Jaspals's voice is a non-profit organisation set up to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
+            Jaspal's voice is a non-profit organisation set up to provide technology that helps MND patients communicate more easily so all the sufferers of this terrible disease get a better quality of life. My aim is to make sure that everyone who is diagnosed with the disease immediately receives a tool that helps them communicate with their family and friends.
           </p>
 
           <p>Please help me achieve this.</p>
