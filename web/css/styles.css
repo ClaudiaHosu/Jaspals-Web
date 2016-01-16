@@ -1,5 +1,5 @@
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
   font-family: 'Cabin';
   color: #5C5C5C;
 }
@@ -14,10 +14,13 @@ h2{
   font-size: 20px;
   font:'Cabin regular';
 }
+p{
+  font-family: 'Lato';
+}
 section .textbox{
   padding: 1em 2em 1em 2em;
   border: 0.2em solid white;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 350px;
 }
 a{
@@ -27,7 +30,7 @@ a{
   text-decoration: underline;
   color: #ffffff;
 }
-html { 
+html {
   background: url("../assets/sunset.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,7 +84,7 @@ html {
 /*PICTURE PAGES */
 .picpage .textbox{
   width: 500px;
-  padding-right: 5em; 
+  padding-right: 5em;
 }
 .picpage .row-button{
   margin-left: 370px;
@@ -129,7 +132,7 @@ button:hover{
   background-color: #deeff5;
 }
 button:active{
-  box-shadow: 0em 0.2em 0em 0.1em #696969; 
+  box-shadow: 0em 0.2em 0em 0.1em #696969;
 }
 button:focus {
   outline: none;
