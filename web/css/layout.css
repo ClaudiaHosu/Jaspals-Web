@@ -95,38 +95,65 @@
    padding: 0 20px 0 20px;
    margin: 0 -30px 0 -30px;
    overflow:hidden;
--  align-content: center;
+  align-content: center;
  }
  #footer #content{
-+  display:block;
    height: auto;
    padding-left: 60px;
--  display: block;
--  vertical-align: middle;
+   display: block;
+   vertical-align: middle;
  }
  #footer #content div{
    position: relative;
    display: inline;
-+  height: 10em;
  }
  #footer .bottom-nav{
--  height: 10em;
+  height: 10em;
    padding-top: 0.35em;
    text-align: left;
    padding-left: 5em;
  }
--#footer .maintained-by{
--  float:right;
--  text-align: right;
--  vertical-align: middle;
--  font-family: "Cabin";
--  color: #ffffff;
--  font-size: 13px;
--}
--
--#footer .maintained-by a{
--  color: #ffffff;
--  text-decoration: underline;
--}
--
 
+#footer .maintained-by{
+  float:right;
+  text-align: right;
+  vertical-align: middle;
+  font-family: "Cabin";
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#footer .maintained-by a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#footer .social{
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+#footer ul{
+  height: auto;
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+#footer li{
+  display: inline;
+  padding: 10px;
+}
+#footer li img{
+  height: 20px;
+}
+#footer img.logo{
+  height: 60px;
+  margin-top: -16px;
+}
+#footer span{
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Cabin";
+}
+.bottom-nav img.logo{
+  padding-top: 14px;
+}
