@@ -6,8 +6,8 @@
 
           <div class="bottom-nav">
             <ul>
-              <li><img class="logo" 
-                src="${pageContext.request.contextPath}/assets/jv-footer-logo.png">
+              <li><a href="${pageContext.request.contextPath}/pages/home.jsp"><img class="logo"
+                src="${pageContext.request.contextPath}/assets/jv-footer-logo.png"></a>
               </li>
               <li><a href="${pageContext.request.contextPath}/pages/contact.jsp"><span>Contact&nbsp;us</span></a></li>
               <li><a href="https://twitter.com/JaspalsVoice" target="_blank"><img src="${pageContext.request.contextPath}/assets/twitter-footer.png"></a></li>
