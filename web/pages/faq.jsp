@@ -15,7 +15,7 @@
                     <p>COMING SOON</p>
                     <p>This page will collate information from a variety of sources to answer any questions or guidance you may need in addressing communication needs.</p>
 
-                    <p>For information and support on Augmentative and Alternative Communication (AAC) for different stages of MND, please visit the MND Association page
+                    <p>Information and support for professionals regarding Augmentative and Alternative Communication (AAC) for different stages of MND can be found on the MND Association page
                         <a href="http://www.mndassociation.org/forprofessionals/aac-for-mnd/what-are-the-common-aac-options/">here</a>.
                     </p>
 
