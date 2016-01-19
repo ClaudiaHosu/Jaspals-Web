@@ -7,6 +7,10 @@
   #header > div{
     overflow:auto;
   }
+  #header .logo div{
+  margin-top: 0;
+  margin-bottom: 10px;
+  }
 
   ul#dropdown-menu {
     display:none;

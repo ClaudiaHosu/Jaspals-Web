@@ -22,7 +22,8 @@
 
         </div>
       </div>
-    
+
     </div>
+    <script src="${pageContext.request.contextPath}/scripts/dropdown.js"></script>
   </body>
 </html>

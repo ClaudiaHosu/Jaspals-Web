@@ -13,6 +13,7 @@
   height: 5em;
   width: 50%;
   float: left;
+  padding-bottom: 1em;
 }
 #header .logo div{
   position: absolute;
@@ -84,7 +85,28 @@
   }
 
 }
-
+/*CLOSE ALT MENUBUTTON */
+.close {
+ opacity: 0.8;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  content: ' ';
+  height: 33px;
+  width: 4px;
+  background-color: #ffffff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
 /*FOOTER*/
  #footer{
    left: 0px;
@@ -157,3 +179,5 @@
 .bottom-nav img.logo{
   padding-top: 14px;
 }
+
+
