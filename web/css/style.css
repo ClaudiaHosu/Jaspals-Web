@@ -16,8 +16,8 @@ font-family:"Helvetica Neue",Helvetica, Arial;
 div#shim{
 visibility: hidden;
 width: 100%;
-height: 50%;                                                                     
-margin-top: -140px;                                                              
+height: 50%;
+margin-top: -140px;
 float: left;
 }
 
@@ -208,4 +208,5 @@ padding-top: 20px;
 .connect img{
 margin-right: 5px;
 }
+
 
