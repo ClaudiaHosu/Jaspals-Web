@@ -29,7 +29,7 @@
     </div><!--END BOXES -->
 
     <div class="row-button">  
-      <a href="${pageContext.request.contextPath}/pages/about.jsp">
+      <a href="${pageContext.request.contextPath}/web/pages/about.jsp">
       <button class="square-button">
         <p>More about us &nbsp;&nbsp;&nbsp;&#10095;<p>
       </button>
@@ -40,3 +40,22 @@
 </section>
 
 <%@ include file="footer.jsp" %>
+
+<style>
+
+html {
+  background: url("../assets/sunset.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero h1, .hero p, .hero h2{
+  color: #ffffff;
+}
+section .textbox{
+  border: 0.2em solid white;
+}
+
+</style>
+
