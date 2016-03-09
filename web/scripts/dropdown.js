@@ -23,7 +23,6 @@ var APP = (function(){
     }
  };
 
- //attach event
  function expandMenu(){
    menubutton.addEventListener(
    "click",

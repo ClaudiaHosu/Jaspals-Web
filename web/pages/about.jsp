@@ -26,11 +26,11 @@
 
           <p>Please help me achieve this.</p>
 
-          <div id="founder">
-            <div id="founderpicture">
+          <div class="story">
+            <div class="storypicture">
               <img src="../assets/jv-susan.png" alt="Susan Graham Jaspals Voice founder"/>
             </div>
-            <div id="foundertext">
+            <div class="storytext">
               <p><strong>Susan Graham</strong></p>
               <p>Founder</p>
             </div>
@@ -41,18 +41,33 @@
           <img src="../assets/jv-jaspal.png" alt="Photo of Jaspal">
         </div>
       </div>
-    
+      <div class "texbox">
+          <h3> DONATE </h3>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"|form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="6AXDT5HGGZ5HQ">
+              <input class="paypal" type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_cc_147x47.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+           </form>
+       </div>
+
     </div><!--END BOXES -->
 
-    <div class="row-button">  
-      <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-      <button class="square-button">
-        <p>Contact us &nbsp;&nbsp;&nbsp;&#10095;<p>
-      </button>
-      </a>
-    </div>
+
   </div>  
   
 </section>
 
 <%@ include file="footer.jsp" %>
+
+<style>
+.textbox form {
+   float: left;
+}
+.aboutpage form{
+  float:left;
+}
+.storypicture img{
+  vertical-align: middle;
+}
+</style>

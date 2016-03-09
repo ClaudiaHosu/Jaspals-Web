@@ -1,5 +1,39 @@
-/*HEADER AND FOOTER */
+/*PAGE SETUP */
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+div.container {
+    position: relative;
+    min-height: 100%;
+    margin: 0 auto;
+    height: auto !important;
+}
+section {
+   height: 100% !important;
+}
+#footer, #push{
+   height: 7em;
+   margin-top: -3em;
+}
+#push{
+  margin-top: auto !important;
+}
+
+.container{
+  width: 100%;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/*HEADER AND FOOTER */
 #header, #footer{
   margin: 0 auto;
   padding: 0 0 0 0;
@@ -8,6 +42,7 @@
   position: relative;
   width: 100%;
   padding-bottom: 0.2em;
+  height: 8em;
 }
 #header .logo{
   height: 5em;
@@ -50,7 +85,6 @@
   #menubox li{
     position: relative;
     display: inline;
-    color: #696969;
     padding:0.6em 1.3em;
     width: 12em;
     height: 1em;
@@ -58,21 +92,23 @@
   }
   #menubox li a{
     font-family: 'Cabin';
-    color: #ffffff;
+    color: #696969;
     font-size: 18px;
-    text-shadow: 1px 1px 1px #696969;
   }
-  #menubox li:hover{
+  #menubox li:hover,
+  #menubox li:active {
     border-bottom: 5px solid #4A90E2;
   }
   #menubox li#donate{
     background-color: #4A90E2;
-    color: #ffffff;
     border-radius: 0;
     box-shadow: 0 0.2em 0.2em 0em #696969;
     width: 100px;
     height:20px;
     border-bottom: none;
+  }
+  #menubox li#donate a{
+    color: #ffffff;
   }
   #menubox li#donate:hover{
     background-color: blue;
@@ -109,15 +145,16 @@
 }
 /*FOOTER*/
  #footer{
-   left: 0px;
-   bottom: 0px;
+   left: 0;
+   bottom: 0;
    width: 100%;
    display:block;
    background-color: #393939;
    padding: 0 20px 0 20px;
    margin: 0 -30px 0 -30px;
    overflow:hidden;
-  align-content: center;
+   align-content: center;
+   position: relative;
  }
  #footer #content{
    height: auto;
