@@ -5,12 +5,12 @@
 
        <div id="heading">
          <h1> Jaspal's story </h1>
-         <p><a href="${pageContext.request.contextPath}/web/pages/stories.jsp">&#60; ALL STORIES</a></p>
+         <p><a href="${pageContext.request.contextPath}/pages/stories.jsp">&#60; ALL STORIES</a></p>
        </div>
 
        <div class="top-row">
            <div class="story-box top">
-                <img class="story-picture" src="${pageContext.request.contextPath}/web/assets/jaspal-story-picture.jpg" alt="Jaspals Voice story picture"/>
+                <img class="story-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture.jpg" alt="Jaspals Voice story picture"/>
 
                 <div class="story-text">
                    <p><strong>

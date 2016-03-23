@@ -9,12 +9,12 @@
 
       <div class="bottom-nav">
         <ul>
-          <li><a href="${pageContext.request.contextPath}/web/pages/home.jsp"><img class="logo"
-            src="${pageContext.request.contextPath}/web/assets/jv-footer-logo.png"></a>
+          <li><a href="${pageContext.request.contextPath}/pages/home.jsp"><img class="logo"
+            src="${pageContext.request.contextPath}/assets/jv-footer-logo.png"></a>
           </li>
           <li><a href="${pageContext.request.contextPath}/pages/contact.jsp"><span>Contact&nbsp;us</span></a></li>
-          <li><a href="https://twitter.com/JaspalsVoice" target="_blank"><img src="${pageContext.request.contextPath}/web/assets/twitter-footer.png"></a></li>
-          <li><a href="https://www.facebook.com/JaspalsVoice/" target="_blank"><img src="${pageContext.request.contextPath}/web/assets/facebook-footer.png"></a></li>
+          <li><a href="https://twitter.com/JaspalsVoice" target="_blank"><img src="${pageContext.request.contextPath}/assets/twitter-footer.png"></a></li>
+          <li><a href="https://www.facebook.com/JaspalsVoice/" target="_blank"><img src="${pageContext.request.contextPath}/assets/facebook-footer.png"></a></li>
         </ul>
 
       </div>
@@ -28,6 +28,6 @@
 
 
 
-    <script src="${pageContext.request.contextPath}/web/scripts/dropdown.js"></script>
+    <script src="${pageContext.request.contextPath}/scripts/dropdown.js"></script>
   </body>
 </html>

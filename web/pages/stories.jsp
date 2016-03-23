@@ -9,13 +9,13 @@
             </div>
 
             <div class="story-box top">
-                <img class="story-picture" src="${pageContext.request.contextPath}/web/assets/jaspal-story-picture-wide.jpg" alt="Jaspals Voice story picture"/>
+                <img class="story-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture-wide.jpg" alt="Jaspals Voice story picture"/>
 
                 <div class="story-text">
                    <h3>JASPAL'S STORY</h3>
                    <p>Jaspal was an energetic, intelligent and sociable woman who was diagnosed with MND at the age of 47</p>
 
-                   <a href="${pageContext.request.contextPath}/web/pages/story/jaspal.jsp">
+                   <a href="${pageContext.request.contextPath}/pages/story/jaspal.jsp">
                        <button class="square-button">
                          <p> Read more &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp &#62;</p>
                        </button>
@@ -36,9 +36,9 @@
 
                 <div class="row">
                     <div class="story-box small">
-                        <a href="${pageContext.request.contextPath}/web/pages/story/rajen.jsp">
+                        <a href="${pageContext.request.contextPath}/pages/story/rajen.jsp">
                             <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/web/assets/rajen-story-picture.jpg" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice photo"/>
                             </div>
                             <div class="story-text">
                                 <h4>Rajen's Story</h4>

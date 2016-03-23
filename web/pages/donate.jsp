@@ -26,7 +26,7 @@
     </div><!--END BOXES -->
 
     <div class="row-button">  
-      <a href="${pageContext.request.contextPath}/web/pages/contact.jsp">
+      <a href="${pageContext.request.contextPath}/pages/contact.jsp">
       <button class="square-button">
         <p>Contact us &nbsp;&nbsp;&nbsp;&#10095;<p>
       </button>

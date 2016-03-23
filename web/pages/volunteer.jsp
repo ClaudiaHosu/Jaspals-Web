@@ -8,7 +8,7 @@
     
       <div id="heading">
         <h1>Get Involved</h1>
-        <p style="font-size:20px, padding-bottom:0px">Everyone needs a voice</p>
+        <p style="font-size:20px; padding-bottom:0px">Everyone needs a voice</p>
       </div>
       
         <div class="row-left">
@@ -25,7 +25,7 @@
     </div><!--END BOXES -->
 
     <div class="row-button">  
-      <a href="${pageContext.request.contextPath}/web/pages/contact.jsp">
+      <a href="${pageContext.request.contextPath}/pages/contact.jsp">
       <button class="square-button">
         <p>Contact us &nbsp;&nbsp;&nbsp;&#10095;<p>
       </button>
