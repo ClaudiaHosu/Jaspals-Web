@@ -17,7 +17,7 @@
 
                    <a href="${pageContext.request.contextPath}/pages/story/jaspal.jsp">
                        <button class="square-button">
-                         <p> Read more &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp &#62;</p>
+                         <p> Read more&nbsp;&nbsp;&#62;</p>
                        </button>
                   </a>
                 </div>

@@ -52,7 +52,6 @@ section {
 }
 #header .logo div{
   position: absolute;
-  margin-top: -15px;
   margin-left: 55px;
   z-index: 5;
   display: inline;
