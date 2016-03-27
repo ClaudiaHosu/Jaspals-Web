@@ -33,6 +33,7 @@ html {
 .story-box.top {
    width: 90%;
    max-width: 1200px;
+    margin-bottom: 3em;
 }
 #boxes button.square-button p {
   color: #ffffff;

@@ -14,7 +14,7 @@ h2{
   font-size: 20px;
   font:'Cabin regular';
 }
-p{
+p, li {
   font-family: 'Lato';
 }
 section .textbox{
@@ -151,7 +151,7 @@ button.square-button{
   border:none;
   width: 28em;
   height: 4em;
-  box-shadow: 0 0 2em 0.2em #696969;
+  box-shadow: 1px 2px 1px #696969;
 }
 button.square-button:hover{
   background-color: blue;

@@ -1,4 +1,4 @@
-#<%@ include file="../header.jsp" %>
+<%@ include file="../header.jsp" %>
 
 <section class="hero story1">
     <div id="boxes">
@@ -80,7 +80,7 @@
 
              </div>
           </div>
-          <div class "texbox donate-box">
+          <div class = "texbox donate-box">
                 <h3> DONATE </h3>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"|form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
