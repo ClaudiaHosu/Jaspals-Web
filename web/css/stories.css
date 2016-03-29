@@ -67,9 +67,9 @@ section.stories #boxes *{
 .other-stories .intro h3 {
     width: 70%;
 }
-.other-stories
- .row:before,
- .row:after{
+.other-stories,
+.row:before,
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -97,33 +97,36 @@ section.stories #boxes *{
 
 /*INDIVIDUAL PAGES */
 
-    .story1 .main-text {
-        float:left;
-        width: 50%
-    }
-    .story1 .story-box.top {
-       width: 95%;
-       max-width: 1200px;
-       margin: 0;
-    }
-    .story1 #boxes button.square-button p {
-      color: #ffffff;
-      text-align: left;
-      margin-left: 1em;
-    }
-    .story1 .story-box.top img {
-       padding: 1.5em;
-       max-width: 250px;
-       float: left;
-       width: 100%;
-       margin-left: auto;
-       margin-right: auto;
-    }
+.story1 .main-text {
+    float:left;
+    width: 50%
+}
+.story1 .story-box.top {
+   width: 95%;
+   max-width: 1200px;
+   margin: 0;
+}
+.story1 #boxes button.square-button p {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 1em;
+}
+.story1 .story-box.top img {
+   padding: 1.5em;
+   max-width: 250px;
+   float: left;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
 
-   .story1 .story-text p,
-   .story1 .intro p {
-     color: #5C5C5C;
-   }
+.story1 .story-text p,
+.story1 .intro p {
+ color: #5C5C5C;
+}
+.story1 h1 {
+    padding-bottom: 0.5em;
+}
 
 /*DONATION COLUMN */
 .story1 .donate-box,

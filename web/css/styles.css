@@ -1,21 +1,18 @@
 
 h1, h2, h3, h4 {
-  font-family: 'Cabin';
+  font-family: 'Cabin', 'Arial';
   color: #5C5C5C;
 }
-h1{
-  font:'Cabin semibold';
+h1 {
   font-size: 36px;
   margin-bottom: -2.5em;
   padding-top: 1em;
-  font-style: thin;
 }
-h2{
+h2 {
   font-size: 20px;
-  font:'Cabin regular';
 }
 p, li {
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica';
 }
 section .textbox{
   padding: 1em 2em 1em 2em;
@@ -23,7 +20,7 @@ section .textbox{
   box-sizing: border-box;
   width: 350px;
 }
-a{
+a {
   text-decoration: none;
 }
 .textbox a{
@@ -49,10 +46,12 @@ html{
   color: #5C5C5C;
 }
 .hero #heading{
-  padding: 0em 1em 1em 3em;
+  padding: 0 1em 1em 3em;
 }
 .hero #heading p{
   margin:0;
+  font-size: 1.2em;
+  padding-bottom:0;
 }
 
 /*HOMEPAGE ROWS IN HERO */
@@ -123,23 +122,12 @@ html{
   padding-left: 1em;
 }
 
-/*ROUNDED BUTTON BORDER */
-button.round-button {
-  border: 2px solid #4A90E2;
-  background-color: #ffffff;
-  border-radius: 500px;
-  width: 10em;
-  font-size: 17px;
-}
-
-
-
 /*BUTTONS*/
 button:hover{
   background-color: #deeff5;
 }
 button:active{
-  box-shadow: 0em 0.2em 0em 0.1em #696969;
+  box-shadow: 0 .2em 0 0.1em #696969;
 }
 button:focus {
   outline: none;
@@ -176,7 +164,6 @@ input.paypal{
 
 /* EXTRA BOOTSTRAP */
 body {
-  margin: 15;
   position: relative;
   min-height: 100%;
 }
