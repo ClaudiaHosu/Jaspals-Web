@@ -29,21 +29,6 @@ clear: both;
 position: relative;
 top: -140px;
 
-/* IE4ever Hack: Hide from IE4 **/
-position: static;
-/** end hack */
-}
-
-/* Hide from IE5mac \*//*/
-div#shim {
-display: none;
-}
-html, body {
-height: auto;
-}
-/* end hack */
-/* ]]> */
-
 
 .logo_box{
 width: 349px;
@@ -65,10 +50,6 @@ letter-spacing: -1px;
 font-size: 38px;
 }
 
-h1 cufon{
-margin-bottom: -4px;
-}
-
 h3{
 font-size: 24px;
 color: #333;
@@ -88,7 +69,6 @@ form{
 width: 590px;
 padding: 10px 0;
 float: left;
-background: url(../images/dots.gif) right top repeat-y;
 height: 80px;
 }
 
@@ -147,7 +127,7 @@ margin-right: 8px;
 ul.info li p.social a.li{
 width: 28px;
 height: 28px;
-background: url(../assets/social.pngg) -72px top no-repeat;
+background: url(../assets/social.png) -72px top no-repeat;
 float: left;
 }
 

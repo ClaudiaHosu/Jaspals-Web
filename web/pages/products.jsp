@@ -8,7 +8,7 @@
     
       <div id="heading">
         <h1>Products</h1>
-        <p style="font-size:20px, padding-bottom:0px">Everyone needs a voice</p>
+        <p>Everyone needs a voice</p>
       </div>
       
       <div class="row-left">

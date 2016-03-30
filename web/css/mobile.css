@@ -5,7 +5,6 @@
     margin-left:0px;
   }
 
-
   /*HERO SECTION */
   .hero{
     padding: 20px 0 30px 20px;
@@ -35,9 +34,6 @@
   .picpage .row-button {
     margin: 0;
   }
-  #footer #content{
-    padding-left: 25px;
-  }
 
   /*ABOUT PAGE */
   .picpage .textbox{
@@ -59,9 +55,6 @@
 }
 
 @media (max-width:669px){
-  #header .nav{
-    text-align: right;
-  }
   .nav li{
     position: relative;
     display: block;
@@ -78,7 +71,6 @@
 }
 
 @media (max-width: 450px){
-
 
   section .textbox{
     padding: 0 0.5em 0em 0.5em;
@@ -118,12 +110,6 @@
   .aboutpage div.row-left{
     width: 270px;
   }
-  #founder div#foundertext{
-  float:left;
-  }
-  #founder div#foundertext p{
-    margin:0;
-  }
 
   .productpage div.row-left {
     width: 270px;
@@ -135,8 +121,12 @@
   width: 18em;
   height: 4em;
   }
-  #footer #content{
-    padding-left: 15px;
+  #footer #content {
+    width: 100%;
+    margin: 0;
   }
-
+  #footer .bottom-nav-content #social > a {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
