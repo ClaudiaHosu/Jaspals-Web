@@ -14909,7 +14909,10 @@ User</columns>
       <column id="3532" parent="333" name="description">
         <data-type>varchar(255)</data-type>
       </column>
-      <key id="3533" parent="333" name="PRIMARY">
+      <column id="3533" parent="333" name="catchy_description">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="3534" parent="333" name="PRIMARY">
         <columns>story_id</columns>
         <primary>1</primary>
       </key>
