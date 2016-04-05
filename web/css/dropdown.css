@@ -37,14 +37,13 @@
   div#menubutton{
     float: right;
     border-radius: 20%;
-    background-color:#4A4A4A;
     padding: 2px 3px 4px 3px;
     display: block;
   }
   div#menubutton hr{
-    width: 20px;
-    height: 3px;
-    background-color: white;
+    width: 25px;
+    height: 4px;
+    background-color: #4A4A4A;
     margin: 3px;
   }
   #dropdown-menu li{

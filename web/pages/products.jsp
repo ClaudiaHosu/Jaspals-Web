@@ -1,4 +1,4 @@
-<%@ include file="header.jsp" %>
+<%@ include file="shared/_header.jsp" %>
 
 <!--Introduction--> 
 <section class="hero picpage productpage">
@@ -11,7 +11,7 @@
         <p>Everyone needs a voice</p>
       </div>
       
-      <div class="row-left">
+      <div class="col-left">
         <div class="textbox">
           <p>COMING SOON</p>
           <p>We will soon be releasing the Virtual Mobile android app which supports Jaspal's communication technique.</p>
@@ -39,4 +39,4 @@
 </section>
 
 
-<%@ include file="footer.jsp" %>
+<%@ include file="shared/_footer.jsp" %>

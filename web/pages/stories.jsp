@@ -1,4 +1,4 @@
-<%@ include file="header.jsp" %>
+<%@ include file="shared/_header.jsp" %>
 
 <section class="hero stories">
 
@@ -112,6 +112,6 @@
 
 </section>
 
-<%@ include file="footer.jsp" %>
+<%@ include file="shared/_footer.jsp" %>
 
 

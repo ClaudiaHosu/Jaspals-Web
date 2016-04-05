@@ -18,7 +18,7 @@ section .textbox{
   padding: 1em 2em 1em 2em;
   border: 0.2em solid #353535;
   box-sizing: border-box;
-  width: 350px;
+  width: 20em;
 }
 a {
   text-decoration: none;
@@ -59,23 +59,8 @@ html{
   padding-right: 4.5em;
   padding-left: 8em;
 }
-.row-right, .row-left, .row-button{
+.col-right, .col-left, .row-button{
   width:100%;
-  overflow:auto;
-}
-.row-right{
-  margin-left: 321px;
-  margin-top: -29px;
-  z-index: 1;
-}
-.row-button {
-  margin-left: 250px;
-  margin-top: -20px;
-  z-index: 2;
-}
-.homepage .row-button{
-  margin-left: 415px;
-  margin-top: -20px;
 }
 
 /*PICTURE PAGES */
@@ -86,23 +71,115 @@ html{
 .picpage .row-button{
   margin-left: 370px;
 }
+/*DONATE BOX */
+#donate-box img {
+  display: block;
+  margin: .5em 0 0 0;
+}
 
 /*ABOUT AND PRODUCT PAGE*/
-.aboutpage div.row-left{
-  width: 40em;
-}
-.productpage div.row-left{
-  width: 35.3em;
-}
 .aboutpage .picturebox img{
   width: 250px;
-  float: right;
-  margin-top: -45em;
+  margin-top: -10px;
 }
 .productpage .picturebox img{
   width: 185px;
   float: right;
   margin-top: -26em;
+}
+/* 2 COL STYLING WITH FLEXBOX */
+
+.aboutpage .flex-container,
+.homepage .flex-container {
+  display: flex;
+  flex-flow: row;
+
+  display: -webkit-flex;
+  -webkit-flex-flow: row;
+
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+
+}
+.aboutpage .col-left,
+.homepage .col-left {
+    order: 1;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+}
+.aboutpage .col-right,
+.homepage .col-right {
+    order: 2;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+}
+
+.homepage .square-button {
+  width: 95%;
+  height: auto;
+  margin: 0;
+}
+.homepage .col-left {
+  margin-right: 2em;
+}
+
+@media (max-width:750px) {
+
+  /* 2 col layout - mobile version */
+  .aboutpage .flex-container,
+  .homepage .flex-container {
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    align-content: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -webkit-align-items: center;
+  }
+
+  .aboutpage .col-left {
+    order: 2;
+    -webkit-order: 2;
+    flex: 1 1 auto;
+  }
+
+  .aboutpage .col-right {
+    order: 1;
+    -webkit-order: 1;
+    flex: 1 1 auto;
+  }
+
+  .homepage .col-left {
+    order: 1;
+    -webkit-order: 1;
+    flex: 1 1 auto;
+  }
+  .homepage .col-right {
+    order: 2;
+    -webkit-order: 2;
+    flex: 1 1 auto;
+  }
+  .aboutpage .picturebox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .aboutpage .picturebox > img {
+    flex: 1 1 auto;
+    order: 1;
+    -webkit-align-self: center;
+    max-width: 250px;
+  }
+  .homepage .col-left {
+    margin: 0 0 1em 0;
+  }
+  .homepage .col-right {
+    padding-bottom: .7em;
+  }
+
+
 }
 
 /*STORY BOX STYLING */
@@ -132,7 +209,8 @@ button:active{
 button:focus {
   outline: none;
 }
-button.square-button{
+button.square-button,
+input.square-button{
   background-color: #4A90E2;
   color: #ffffff;
   border-radius: 0;
@@ -159,7 +237,6 @@ input.paypal{
   margin-left:auto;
   margin-right: auto;
 }
-
 
 
 /* EXTRA BOOTSTRAP */
@@ -191,5 +268,4 @@ html {
   font-size: 17px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 
