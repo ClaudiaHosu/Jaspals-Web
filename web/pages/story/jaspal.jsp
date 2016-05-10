@@ -9,8 +9,8 @@
        </div>
 
        <div class="top-row">
-           <div class="story-box top">
-                <img class="story-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture.jpg" alt="Jaspals Voice story picture"/>
+           <div class="content-box top">
+                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture.jpg" alt="Jaspals Voice story picture"/>
 
                 <div class="story-text">
                    <p><strong>
@@ -24,7 +24,7 @@
                 </div>
             </div>
        </div>
-       <div class ="other-stories">
+       <div class ="other-content">
            <div class="main-text">
                <p>
                   Being a social person the last thing that Jaspal would give up was her ability to communicate. She was fortunate to have full time carers and a family that live close by and were there to support her.

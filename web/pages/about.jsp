@@ -10,7 +10,6 @@
         <h1>About us</h1>
       </div>
       <div class="flex-container">
-
           <div class="col-right">
             <div class="picturebox">
               <img src="../assets/jv-jaspal.png" alt="Photo of Jaspal">
@@ -46,10 +45,9 @@
             </div>
           </div>
 
-
       </div>
 
-      <%@ include file="shared/_donate_box.jsp" %>
+      <div> <%@ include file="shared/_donate_box.jsp" %> </div>
     </div><!--END BOXES -->
 
 
