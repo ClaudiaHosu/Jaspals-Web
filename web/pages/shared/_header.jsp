@@ -12,6 +12,7 @@
     <link href="${pageContext.request.contextPath}/css/mobile.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/dropdown.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/stories.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/products.css" type="text/css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/scripts/jquery.js"></script>
   </head>
   <body>

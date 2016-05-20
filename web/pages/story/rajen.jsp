@@ -1,4 +1,4 @@
-<%@ include file="../header.jsp" %>
+<%@ include file="../shared/_header.jsp" %>
 
 <section class="hero story1">
     <div id="boxes">
@@ -9,10 +9,10 @@
        </div>
 
        <div class="top-row">
-             <div class="story-box top">
+             <div class="content-box top">
                   <img class="story-picture" src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice story picture"/>
 
-                  <div class="story-text">
+                  <div class="content-text">
                      <p><strong>
                         Rajen's MND symptoms started in January 2007 at the age of 48yrs but he was diagnosed in January 2008 with Primary Lateral Sclerosis variant.
                         Rajen is an accountant and had his own practice since 1987 but due to the progression of MND had to retire in 2009.
@@ -23,7 +23,7 @@
                   </div>
               </div>
          </div>
-         <div class ="other-stories">
+         <div class ="other-content">
              <div class="main-text">
                  <p>
                   He is a very positive person and always smiling and has a very infectious smile.
@@ -80,19 +80,11 @@
 
              </div>
           </div>
-          <div class = "texbox donate-box">
-                <h3> DONATE </h3>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"|form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="6AXDT5HGGZ5HQ">
-                    <input class="paypal" type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_cc_147x47.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-                 </form>
-         </div>
+          <%@ include file="../shared/_donate_box.jsp" %>
 
    </div>
 
 </section>
-<%@ include file="../footer.jsp" %>
+<%@ include file="../shared/_footer.jsp" %>
 
 

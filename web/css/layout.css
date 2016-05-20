@@ -190,8 +190,7 @@ section {
   padding-top: 14px;
 }
 
-/* FLEXBOX */
-
+/* FLEXBOX FOOTER */
 #footer #content {
   display: flex;
   flex-flow: column;
@@ -238,6 +237,9 @@ section {
   order: 1;
   flex: 1 3 auto;
   -webkit-flex: 1 3 auto;
+}
+#footer .bottom-nav-content > div:first-child{
+  max-width: 6em;
 }
 #footer .bottom-nav-content #social{
   text-align: right;

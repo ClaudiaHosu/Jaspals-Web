@@ -2,7 +2,7 @@
 
   /*LOGO AND MENU */
   #header .logo div{
-    margin-left:0px;
+    margin-left: 0;
   }
 
   /*HERO SECTION */
@@ -19,13 +19,12 @@
     overflow: auto;
     padding: 0;
   }
-  .row-right{
+  .col-right {
     margin-left: 0;
     margin-top: 0;
-    z-index: 2;
   }
-  .row-right div, .row-left div{
-    float: left;
+  .col-right div,
+  .col-left div{
     margin-left:0;
     margin-top: 0;
   }
@@ -37,8 +36,8 @@
 
   /*ABOUT PAGE */
   .picpage .textbox{
-    width: 500px;
-    padding-right: 2em;
+    width: 95%;
+    padding: 0 .5em 0em .5em;
   }
   .picpage .picturebox img{
     float: left;
@@ -73,12 +72,13 @@
 @media (max-width: 450px){
 
   section .textbox{
-    padding: 0 0.5em 0em 0.5em;
-    width: 270px;
+    padding: 0 .5em 1em .5em;
+    min-width: 270px;
+    width: 100%;
   }
   .picpage .textbox{
-    padding: 0 0.5em 0em 0.5em;
-    width: 270px;
+    padding: 0 0.5em;
+    width: 95%;
   }
   .aboutpage .picturebox img{
     width: 250px;
@@ -105,17 +105,15 @@
   #boxes{
     overflow: auto;
     padding: 0;
-    width:270px;
+    width: 90%;
+    margin: 0 5%;
   }
-  .aboutpage div.row-left{
-    width: 270px;
-  }
-
-  .productpage div.row-left {
-    width: 270px;
+  .productpage div.col-left,
+  .aboutpage div.col-left {
+    width: 100%;
   }
   #header .logo div{
-    margin-left: 0px;
+    margin-left: 0;
   }
   button.square-button{
   width: 18em;

@@ -1,20 +1,21 @@
-<%@ include file="header.jsp" %>
+<%@ include file="shared/_header.jsp" %>
 
 <section class="hero stories">
-
         <div id="boxes">
 
             <div id="heading">
                 <h1>Stories</h1>
             </div>
 
-            <div class="story-box top">
-                <img class="story-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture-wide.jpg" alt="Jaspals Voice story picture"/>
+            <div class="content-box top">
+                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture-wide.jpg" alt="Jaspals Voice story picture"/>
 
-                <div class="story-text">
+                <div class="content-text">
                    <h3>JASPAL'S STORY</h3>
-                   <p>Jaspal was an energetic, intelligent and sociable woman who was diagnosed with MND at the age of 47</p>
-
+                   <p>
+                       Jaspal was an energetic, intelligent and sociable woman who was diagnosed with MND at the age of 47.
+                       Throughout her illness she looked for ways to make her life as normal as possible.
+                   </p>
                    <a href="${pageContext.request.contextPath}/pages/story/jaspal.jsp">
                        <button class="square-button">
                          <p> Read more&nbsp;&nbsp;&#62;</p>
@@ -22,96 +23,90 @@
                   </a>
                 </div>
             </div>
-
-            <div class="other-stories">
-
-              <div class="intro">
+            <div class="intro">
                 <h3> MORE STORIES </h3>
-                <p>Whether you're early, mid or late-stages of MND, you'll find support and advice for the journey by sharing your stories.
-                   Get tips and advice on dealing with any issues you have.
-                   If you are using a communications aid, give us your feedback.
-                   Help others select the right technology for them.
+                <p> Whether you're early, mid or late-stages of MND, you'll find support and advice for the journey by sharing your stories.
+                    Get tips and advice on dealing with any issues you have.
+                    If you are using a communications aid, give us your feedback.
+                    Help others select the right technology for them.
                 </p>
-              </div>
+            </div>
 
-                <div class="row">
-                    <div class="story-box small">
+            <div class="other-content">
+
+                    <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/story/rajen.jsp">
-                            <div class="story-picture">
+                            <div class="content-picture">
                                 <img src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
+                            <div class="content-text">
                                 <h4>Rajen's Story</h4>
                                 <p>Rajen's MND symptoms started in January 2007 at the age of 48yrs </p>
                             </div>
                         </a>
                     </div>
-                    <div class="story-box small hidden">
+                    <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
                             <div class="story-picture">
-                                <img src="http://i3.cpcache.com/product_zoom/1598575949/shiba_inu_puzzle.jpg?height=250&width=250&padToSquare=true" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
-                                <h4>Story Title </h4>
-                                <p> text text text text </p>
+                            <div class="content-text">
+                                <h4>Story 2 </h4>
+                                <p>Coming soon... </p>
                             </div>
                         </a>
                     </div>
-                    <div class="story-box small hidden">
+                    <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
                             <div class="story-picture">
-                                <img src="http://i3.cpcache.com/product_zoom/1598575949/shiba_inu_puzzle.jpg?height=250&width=250&padToSquare=true" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
-                                <h4>Story Title 3 </h4>
-                                <p> text text text text </p>
+                            <div class="content-text">
+                                <h4>Story 3 </h4>
+                                <p>Coming soon... </p>
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="row hidden">
-                     <div class="story-box small">
+                     <div class="content-box small">
                          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
                             <div class="story-picture">
-                                <img src="http://i3.cpcache.com/product_zoom/1598575949/shiba_inu_puzzle.jpg?height=250&width=250&padToSquare=true" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
-                                <h4> Seattle 4 </h4>
-                                <p>Flat lakes reflect the grey sky, smoke on the horizon </p>
+                            <div class="content-text">
+                                <h4> Story 4 </h4>
+                                <p>Coming soon... </p>
                             </div>
                         </a>
                     </div>
-                    <div class="story-box small">
+                    <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
                             <div class="story-picture">
-                                <img src="http://i3.cpcache.com/product_zoom/1598575949/shiba_inu_puzzle.jpg?height=250&width=250&padToSquare=true" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
+                            <div class="content-text">
                                 <h4>Story 5 </h4>
-                                <p> Red truck on a side road, coming down a hill </p>
+                                <p> Coming soon... </p>
                             </div>
                         </a>
                     </div>
-                    <div class="story-box small">
+                    <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
                             <div class="story-picture">
-                                <img src="http://i3.cpcache.com/product_zoom/1598575949/shiba_inu_puzzle.jpg?height=250&width=250&padToSquare=true" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
                             </div>
-                            <div class="story-text">
+                            <div class="content-text">
                                 <h4>Story 6 </h4>
-                                <p> At the crest of the hill, the tufts at the top of the pine tree look like feathers </p>
+                                <p> Coming soon... </p>
                             </div>
                         </a>
                     </div>
 
-                </div>
             </div>
-
 
         </div>
 
 </section>
 
-<%@ include file="footer.jsp" %>
+<%@ include file="shared/_footer.jsp" %>
 
 

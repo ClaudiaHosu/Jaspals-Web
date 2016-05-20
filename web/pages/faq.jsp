@@ -1,10 +1,9 @@
-<%@ include file="header.jsp" %>
+<%@ include file="shared/_header.jsp" %>
 
-<!--Introduction-->
 <section class="hero">
     <div class="container-fluid">
 
-        <div id="boxes"><!--BOXES-->
+        <div id="boxes">
 
             <div id="heading">
                 <h1>FAQ</h1>
@@ -25,11 +24,9 @@
                 </div>
             </div>
 
-        </div><!--END BOXES -->
-
+        </div>
     </div>
 
 </section>
 
-
-<%@ include file="footer.jsp" %>
+<%@ include file="shared/_footer.jsp" %>

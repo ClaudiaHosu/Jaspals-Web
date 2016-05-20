@@ -1,10 +1,8 @@
 
-/*STORIES PAGES */
-
-.hidden {
-    display: none;
+/* CONTENT: STORIES & PRODUCT PAGES */
+section.stories #boxes *{
+  box-sizing: border-box;
 }
-
 section.stories .textbox {
     padding: 1em 2em 1em 2em;
     border: 0;
@@ -12,10 +10,6 @@ section.stories .textbox {
     width: 60%;
 }
 .container-fluid {
-   overflow: visible;
-}
-html {
-   background-image: none;
    overflow: visible;
 }
 .hero.stories h1,
@@ -28,90 +22,94 @@ html {
   font-size: 2em;
   margin: 0;
 }
+.content-box {
+    min-height: 1px;
+    border: 2px solid grey;
+    margin-right: 1em;
+}
+.stories .intro {
+    width: 70%;
+    padding: 0 1em 1em 1em;
+}
 
-/* TOP STORY */
-.story-box.top {
-   width: 90%;
-   max-width: 1200px;
-    margin-bottom: 3em;
+/* TOP BOX */
+.content-box.top {
+   width: 100%;
+   max-width: 44em;
 }
 #boxes button.square-button p {
   color: #ffffff;
   text-align: left;
   margin-left: 1em;
 }
-.story-box .story-text {
+.content-box .content-text {
    padding: 1em;
 }
-.top .story-text button {
+.content-box.top img {
+    width: 100%;
+}
+.content
+.top .content-text button {
    margin: 2em 0 1em 0;
 }
-.story-box.top .story-text {
-   padding: 0.8em 2em 1em 2em;
+.top .content-text {
+   padding: 0 4em 2em 2em;
    max-width: 800px;
+   width: 75%;
 }
 
 /*STORY GRID */
-section.stories #boxes *{
-  box-sizing: border-box;
-}
-.other-stories{
+.other-content {
    width: 100%;
    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.other-stories .intro{
+.content-box.small {
+    width: 33%;
+    max-width: 14em;
+    display: flex;
+    margin-bottom: 1em;
+}
+.stories .content-box.small div {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding-left: 1em;
 }
-.other-stories .intro p,
-.other-stories .intro h3 {
-    width: 70%;
+.stories .content-box.small p,
+.stories .content-box.small img {
+    flex: 1 0 auto;
+    width: 100%;
+    padding: auto;
 }
-.other-stories,
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.story-box.small{
-    width: 30%;
-    margin-left: 0;
-}
-.story-box{
-    float: left;
-    min-height: 1px;
-    border: 2px solid grey;
-    margin: 12px;
-}
-#boxes .story-box p,
-#boxes .story-box h4 {
+.content-box.small p,
+.content-box.small h4 {
     color: #5C5C5C;
     padding: 0;
     margin: 0;
 }
-#boxes .story-box img{
-    width: 100%;
-    display: block;
-}
 
 /*INDIVIDUAL PAGES */
-
 .story1 .main-text {
     float:left;
     width: 50%
 }
-.story1 .story-box.top {
+.story1 .content-box.top {
    width: 95%;
    max-width: 1200px;
    margin: 0;
+}
+.story1 .top .content-text {
+    padding: 0 2em 2em 2em;
+    max-width: 800px;
+    width: 85%;
 }
 .story1 #boxes button.square-button p {
   color: #ffffff;
   text-align: left;
   margin-left: 1em;
 }
-.story1 .story-box.top img {
+.story1 .content-box.top img {
    padding: 1.5em;
    max-width: 250px;
    float: left;
@@ -120,9 +118,9 @@ section.stories #boxes *{
    margin-right: auto;
 }
 
-.story1 .story-text p,
+.story1 .content-text p,
 .story1 .intro p {
- color: #5C5C5C;
+   color: #5C5C5C;
 }
 .story1 h1 {
     padding-bottom: 0.5em;
@@ -131,7 +129,7 @@ section.stories #boxes *{
 /*DONATION COLUMN */
 .story1 .donate-box,
 .story1 .main-text {
-    width: 50%;
+    width: 65%;
     float: left;
     min-height: 1px;
     padding-right: 1.5em;
@@ -143,28 +141,36 @@ section.stories #boxes *{
 }
 .story1 input.paypal {
     margin: 0;
-
 }
 
+/*MOBILE STYLES */
 
-/* MOBILE UNDER 450 */
-@media (max-width: 450px) {
+@media (max-width: 55em) {
 
-    .story-box.small {
+    .content-box.small {
+        width: 50%;
+    }
+}
+
+@media (max-width: 40em) {
+    .content-box.top {
+        width: auto;
+    }
+    .content-box.small {
         width: 100%;
     }
-    .story-box.top .story-text,
-    .story-box.small .story-text {
+    .content-box.top .content-text,
+    .content-box.small .content-text {
         padding: 1em 1em 1em 1em;
     }
-    .other-stories .intro p {
+    .other-content .intro p {
         width: 100%;
     }
 
     .story1 .main-text{
         width: 100%;
     }
-    .story1 .story-box.top {
+    .story1 .content-box.top {
        width: 99%;
        max-width: 1200px;
     }
@@ -173,11 +179,11 @@ section.stories #boxes *{
       text-align: left;
       margin-left: 1em;
     }
-    .story1 .story-box.top img {
+    .story1 .content-box.top img {
        padding: 0.5em;
        max-width: 250px;
     }
-    .story1 .story-box {
+    .story1 .content-box {
         margin: 0;
     }
 }
