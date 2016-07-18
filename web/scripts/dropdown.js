@@ -5,7 +5,7 @@ var APP = (function(){
  var menubutton = document.getElementById("menubutton");
  var header = document.getElementById("header");
  var crossimage = "<div class='close'></div>";
- var threebars = "<hr></hr><hr></hr><hr></hr>";
+ var threebars = "<hr><hr><hr>";
 
 
  function showmenu(e){

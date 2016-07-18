@@ -32,11 +32,11 @@
 
               <p>Please help me achieve this.</p>
 
-              <div class="story">
-                <div class="storypicture">
+              <div class="author">
+                <div class="author-picture">
                   <img src="../assets/jv-susan.png" alt="Susan Graham Jaspals Voice founder"/>
                 </div>
-                <div class="storytext">
+                <div class="author-text">
                   <p><strong>Susan Graham</strong></p>
                   <p>Founder</p>
                 </div>

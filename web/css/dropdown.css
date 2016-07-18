@@ -20,15 +20,7 @@
     margin-bottom: 0;
    }
 
-   ul#dropdown-menu.open-box{
-    display: block;
-   }
-
-   #header.open-box {
-    background-color: #4A4A4A;
-   }
-
-   #header nav{
+  #header nav{
     float: right;
     height: 5em;
     width: 50%;
@@ -58,11 +50,16 @@
   #dropdown-menu li#donate{
     border: none;
   }
-  #dropdown-menu li a{
+  #dropdown-menu li {
     font-family: Cabin;
     color: white;
   }
-
+  ul#dropdown-menu.open-box{
+    display: block;
+  }
+  #header.open-box {
+    background-color: #4A4A4A;
+  }
   #dropdown-menu li:hover{
     background-color:grey;
   }

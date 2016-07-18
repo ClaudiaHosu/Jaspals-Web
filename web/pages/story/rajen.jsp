@@ -8,21 +8,20 @@
          <p><a href="${pageContext.request.contextPath}/pages/stories.jsp">&#60; ALL STORIES</a></p>
        </div>
 
-       <div class="top-row">
-             <div class="content-box top">
-                  <img class="story-picture" src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice story picture"/>
+        <div class="content-box top">
+            <div class="story-picture" >
+                <img  src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice story picture"/>
+            </div>
+            <div class="content-text">
+                <p><strong>
+                    Rajen's MND symptoms started in January 2007 at the age of 48yrs but he was diagnosed in January 2008 with Primary Lateral Sclerosis variant.
+                    Rajen is an accountant and had his own practice since 1987 but due to the progression of MND had to retire in 2009.
+                    Unfortunately his MND had progressed very quickly and by Oct 2008 he had lost his voice and mobility.
+                </strong>
+                </p>
 
-                  <div class="content-text">
-                     <p><strong>
-                        Rajen's MND symptoms started in January 2007 at the age of 48yrs but he was diagnosed in January 2008 with Primary Lateral Sclerosis variant.
-                        Rajen is an accountant and had his own practice since 1987 but due to the progression of MND had to retire in 2009.
-                        Unfortunately his MND had progressed very quickly and by Oct2008 he had lost his voice and mobility.
-                     </strong>
-                     </p>
-
-                  </div>
-              </div>
-         </div>
+            </div>
+        </div>
          <div class ="other-content">
              <div class="main-text">
                  <p>
@@ -79,9 +78,9 @@
                  </p>
 
              </div>
-          </div>
-          <%@ include file="../shared/_donate_box.jsp" %>
 
+           <%@ include file="../shared/_donate_box.jsp" %>
+          </div>
    </div>
 
 </section>
