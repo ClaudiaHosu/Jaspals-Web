@@ -25,7 +25,7 @@
         <h4>GET IN TOUCH</h4>
         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
           <button class="square-button">
-            <p>Contact us &nbsp;&nbsp;&nbsp;&#10095;<p>
+            Contact us &nbsp;&nbsp;&nbsp;&#10095;
           </button>
         </a>
       </div>

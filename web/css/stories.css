@@ -3,12 +3,7 @@
 section.stories #boxes *{
   box-sizing: border-box;
 }
-section.stories .textbox {
-    padding: 1em 2em 1em 2em;
-    border: 0;
-    box-sizing: border-box;
-    width: 60%;
-}
+
 .container-fluid {
    overflow: visible;
 }
@@ -45,17 +40,17 @@ section.stories .textbox {
 .content-box .content-text {
    padding: 1em;
 }
-.content-box.top img {
-    width: 100%;
-}
-.content
+.content,
 .top .content-text button {
    margin: 2em 0 1em 0;
 }
 .top .content-text {
-   padding: 0 4em 2em 2em;
+   padding: 0 1em;
    max-width: 800px;
-   width: 75%;
+    min-width: 250px;
+}
+.top img.content-picture {
+    width: 100%;
 }
 
 /*STORY GRID */
@@ -89,64 +84,7 @@ section.stories .textbox {
     margin: 0;
 }
 
-/*INDIVIDUAL PAGES */
-.story1 .main-text {
-    float:left;
-    width: 50%
-}
-.story1 .content-box.top {
-   width: 95%;
-   max-width: 1200px;
-   margin: 0;
-}
-.story1 .top .content-text {
-    padding: 0 2em 2em 2em;
-    max-width: 800px;
-    width: 85%;
-}
-.story1 #boxes button.square-button p {
-  color: #ffffff;
-  text-align: left;
-  margin-left: 1em;
-}
-.story1 .content-box.top img {
-   padding: 1.5em;
-   max-width: 250px;
-   float: left;
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.story1 .content-text p,
-.story1 .intro p {
-   color: #5C5C5C;
-}
-.story1 h1 {
-    padding-bottom: 0.5em;
-}
-
-/*DONATION COLUMN */
-.story1 .donate-box,
-.story1 .main-text {
-    width: 65%;
-    float: left;
-    min-height: 1px;
-    padding-right: 1.5em;
-}
-
-.story1 div.top-row {
-    width: 100%;
-    overflow: auto;
-}
-.story1 input.paypal {
-    margin: 0;
-}
-
-/*MOBILE STYLES */
-
 @media (max-width: 55em) {
-
     .content-box.small {
         width: 50%;
     }
@@ -155,6 +93,7 @@ section.stories .textbox {
 @media (max-width: 40em) {
     .content-box.top {
         width: auto;
+        flex-direction: column;
     }
     .content-box.small {
         width: 100%;
@@ -166,25 +105,93 @@ section.stories .textbox {
     .other-content .intro p {
         width: 100%;
     }
+}
 
-    .story1 .main-text{
+/*********INDIVIDUAL STORY AND PRODUCT PAGES **************/
+.story1 .main-text {
+    float:left;
+    width: 50%;
+    padding-right: 2em;
+}
+.story1 .content-box.top {
+   width: 100%;
+   max-width: 1200px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.story1 .top .content-text {
+    flex: 1 1 70%;
+}
+.story1 .top .content-picture {
+    flex: 1 1 30%;
+}
+.story1 .content-box.top img {
+   padding-right: 1.5em;
+    max-width: 250px;
+    max-height: 250px;
+}
+@media (max-width:600px){
+    .story1 .content-box.top {
+        flex-direction: column;
+        padding: 1em;
+        max-width: 300px;
+    }
+    .product1 .content-box.top {
+        align-items: none;
+    }
+    .story1 .top .content-text {
+        width: 100%;
+        max-width: 250px;
+        padding: 0 1em 0 0;
+    }
+    .story1 .top .content-picture {
         width: 100%;
     }
-    .story1 .content-box.top {
-       width: 99%;
-       max-width: 1200px;
+}
+
+.story1 .content-text p,
+.story1 .intro p {
+   color: #5C5C5C;
+}
+.story1 h1 {
+    padding-bottom: 0.5em;
+}
+.story1 #boxes button.square-button p {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 1em;
+}
+/* DONATE COLUMN */
+
+@media (max-width: 600px) {
+    .story1 .main-text {
+        width: 100%;
     }
     .story1 #boxes button.square-button p {
-      color: #ffffff;
-      text-align: left;
-      margin-left: 1em;
+        color: #ffffff;
+        text-align: left;
+        margin-left: 1em;
     }
+
     .story1 .content-box.top img {
-       padding: 0.5em;
-       max-width: 250px;
+        max-width: 250px;
+        max-height: 300px;
     }
+
     .story1 .content-box {
         margin: 0;
     }
+
+    .story1 .top .content-text {
+        width: 100%;
+    }
+
+    .story1 .top .content-picture {
+        width: 100%;
+    }
 }
+
+
+
 

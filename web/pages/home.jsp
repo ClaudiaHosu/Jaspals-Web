@@ -26,7 +26,7 @@
             <p>We give communications devices to people in need, funded by donations.</p>
             <a href="${pageContext.request.contextPath}/pages/about.jsp">
               <button class="square-button">
-                <p>More about us &nbsp;&nbsp;&nbsp;&#10095;<p>
+                More about us &nbsp;&nbsp;&nbsp;&#10095;
               </button>
             </a>
           </div>

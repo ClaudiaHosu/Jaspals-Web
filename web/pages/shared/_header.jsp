@@ -8,8 +8,9 @@
     <link href="http://fonts.googleapis.com/css?family=Cabin" rel='stylesheet' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="${pageContext.request.contextPath}/css/styles.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/header.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/footer.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/layout.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/mobile.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/dropdown.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/stories.css" type="text/css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/products.css" type="text/css" rel="stylesheet">
@@ -33,9 +34,9 @@
           <nav>
             <div id="dropdown">
               <div id="menubutton">
-                <hr></hr>
-                <hr></hr>
-                <hr></hr>
+                <hr>
+                <hr>
+                <hr>
               </div>
             </div>
           </nav>
@@ -44,12 +45,12 @@
 
       <div id="menubox">
         <ul id="dropdown-menu">
-              <li id="about"><a href="${pageContext.request.contextPath}/pages/about.jsp">ABOUT US</a></li>
-              <li id="products"><a href="${pageContext.request.contextPath}/pages/products.jsp">PRODUCTS</a></li>
-              <li id="menu-stories"><a href="${pageContext.request.contextPath}/pages/stories.jsp">STORIES</a></li>
-              <li id="volunteer"><a href="${pageContext.request.contextPath}/pages/volunteer.jsp">GET INVOLVED</a></li>
-              <li id="faq"><a href="${pageContext.request.contextPath}/pages/faq.jsp">FAQ</a></li>
-              <li id="donate"><a href="${pageContext.request.contextPath}/pages/donate.jsp">DONATE</a></li>
+          <a href="${pageContext.request.contextPath}/pages/about.jsp"><li id="about">ABOUT US</li></a>
+          <a href="${pageContext.request.contextPath}/pages/products.jsp"><li id="products">PRODUCTS</li></a>
+          <a href="${pageContext.request.contextPath}/pages/stories.jsp"><li id="menu-stories">STORIES</li></a>
+          <a href="${pageContext.request.contextPath}/pages/volunteer.jsp"><li id="volunteer">GET INVOLVED</li></a>
+          <a href="${pageContext.request.contextPath}/pages/faq.jsp"><li id="faq">FAQ</li></a>
+          <a href="${pageContext.request.contextPath}/pages/donate.jsp"><li id="donate">DONATE</li></a>
         </ul>
       </div>
 
