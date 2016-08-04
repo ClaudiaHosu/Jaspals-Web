@@ -1,0 +1,124 @@
+/*HEADER  */
+#header {
+  margin: 0 auto;
+  padding: 0 0 0 0; }
+
+#header {
+  position: relative;
+  width: 100%;
+  padding-bottom: 0.2em;
+  height: 8em; }
+
+#header .logo {
+  height: 5em;
+  width: 50%;
+  float: left;
+  padding-bottom: 1em; }
+
+#header .logo div {
+  position: absolute;
+  margin-left: 55px;
+  z-index: 5;
+  display: inline; }
+
+#header .logo div img {
+  width: 100px;
+  height: 114px; }
+
+/* SMALL SCREEN */
+@media (max-width: 669px) {
+  .nav li {
+    position: relative;
+    display: block;
+    margin-right: 1em;
+    margin-left: 71%;
+    width: 123px;
+    margin-bottom: 4px; }
+
+  #header ul {
+    margin-top: 0;
+    padding-top: 0; } }
+@media (max-width: 750px) {
+  /*LOGO AND MENU */
+  #header .logo div {
+    margin-left: 0; } }
+/*HEADER AND NAV WIDE SCREEN */
+@media (min-width: 944px) {
+  /* NAV BAR */
+  #dropdown a {
+    text-decoration: none; }
+
+  #dropdown {
+    display: none; }
+
+  nav {
+    height: 0.3em;
+    display: block;
+    margin-bottom: 0;
+    z-index: 5;
+    text-align: right; }
+
+  #dropdown-menu {
+    xadding-left: 12em;
+    float: right; }
+
+  #menubox li {
+    position: relative;
+    display: inline;
+    padding: 0.6em 1.3em;
+    width: 12em;
+    height: 1em;
+    border-radius: 0; }
+
+  #menubox li a {
+    font-family: 'Cabin';
+    color: #696969;
+    font-size: 18px; }
+
+  #menubox li:hover,
+  #menubox li:active {
+    border-bottom: 5px solid #4A90E2; }
+
+  #menubox li#donate {
+    color: white;
+    background-color: #4A90E2;
+    border-radius: 0;
+    box-shadow: 0 0.2em 0.2em 0em #696969;
+    width: 100px;
+    height: 20px;
+    border-bottom: none; }
+
+  #menubox li#donate a {
+    color: #ffffff; }
+
+  #menubox li#donate:hover {
+    background-color: #504ae2; }
+
+  #menubox li#donate:active {
+    box-shadow: none; }
+
+  #header .logo {
+    width: 0; } }
+/*CLOSE ALT MENUBUTTON */
+.close {
+  opacity: 0.8; }
+
+.close:hover {
+  opacity: 1; }
+
+.close:before, .close:after {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  content: ' ';
+  height: 33px;
+  width: 4px;
+  background-color: #ffffff; }
+
+.close:before {
+  transform: rotate(45deg); }
+
+.close:after {
+  transform: rotate(-45deg); }
+
+/*# sourceMappingURL=header.css.map */

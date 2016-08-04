@@ -1,0 +1,247 @@
+h1, h2, h3, h4 {
+  font-family: 'Cabin', 'Arial';
+  color: #5C5C5C; }
+
+h1 {
+  font-size: 36px;
+  margin-bottom: -2.5em;
+  padding-top: 1em; }
+
+h2 {
+  font-size: 20px; }
+
+p, li {
+  font-family: 'Lato', 'Helvetica'; }
+
+section .textbox {
+  padding: 1em 2em 1em 2em;
+  border: 0.2em solid #353535;
+  box-sizing: border-box;
+  width: 20em; }
+
+a {
+  text-decoration: none; }
+
+.textbox a {
+  text-decoration: underline;
+  color: #5C5C5C; }
+
+html {
+  background-image: none;
+  overflow: visible; }
+
+.hero button p {
+  color: #ffffff; }
+
+/*HERO SECTION */
+.hero {
+  padding: 20px 0 30px 20px;
+  z-index: -1;
+  margin: -45px -10px 0 -10px; }
+
+.hero h1, .hero p, .hero h2, .hero h3, .hero li {
+  color: #5C5C5C; }
+
+.hero #heading {
+  padding: 0 1em 1em 3em; }
+
+.hero #heading p {
+  margin: 0;
+  font-size: 1.2em;
+  padding-bottom: 0; }
+
+/*HOMEPAGE ROWS IN HERO */
+#boxes {
+  padding-right: 4.5em;
+  padding-left: 8em; }
+
+.col-right, .col-left, .row-button {
+  width: 100%; }
+
+/*PICTURE PAGES */
+.picpage .textbox {
+  width: 500px;
+  padding-right: 5em; }
+
+.picpage .row-button {
+  margin-left: 370px; }
+
+/*DONATE BOX */
+#donate-box img {
+  display: block;
+  margin: .5em 0 0 0; }
+
+/*ABOUT AND PRODUCT PAGE*/
+.aboutpage .picturebox img {
+  width: 250px;
+  margin-top: -10px; }
+
+.productpage .picturebox img {
+  width: 185px;
+  float: right;
+  margin-top: -26em; }
+
+/* 2 COL STYLING WITH FLEXBOX */
+.aboutpage .flex-container,
+.homepage .flex-container {
+  display: flex;
+  flex-flow: row;
+  display: -webkit-flex;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
+  -webkit-justify-content: space-around; }
+
+.aboutpage .col-left,
+.homepage .col-left {
+  order: 1;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto; }
+
+.aboutpage .col-right,
+.homepage .col-right {
+  order: 2;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto; }
+
+.donatepage .square-button,
+.homepage .square-button {
+  width: 95%;
+  height: auto;
+  min-height: 3em;
+  margin: 0; }
+
+.homepage .col-left {
+  margin-right: 2em; }
+
+@media (max-width: 750px) {
+  /* 2 col layout - mobile version */
+  .aboutpage .flex-container,
+  .homepage .flex-container {
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    align-content: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -webkit-align-items: center; }
+
+  .aboutpage .col-left {
+    order: 2;
+    -webkit-order: 2;
+    flex: 1 1 auto; }
+
+  .aboutpage .col-right {
+    order: 1;
+    -webkit-order: 1;
+    flex: 1 1 auto; }
+
+  .homepage .col-left {
+    order: 1;
+    -webkit-order: 1;
+    flex: 1 1 auto; }
+
+  .homepage .col-right {
+    order: 2;
+    -webkit-order: 2;
+    flex: 1 1 auto; }
+
+  .aboutpage .picturebox {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    justify-content: center;
+    -webkit-justify-content: center; }
+
+  .aboutpage .picturebox > img {
+    flex: 1 1 auto;
+    order: 1;
+    -webkit-align-self: center;
+    max-width: 250px; }
+
+  .homepage .col-left {
+    margin: 0 0 1em 0; }
+
+  .homepage .col-right {
+    padding-bottom: .7em; } }
+/*STORY BOX STYLING */
+.story {
+  overflow: auto;
+  padding-bottom: 2em;
+  padding-top: 2em; }
+
+.story div {
+  display: inline-block; }
+
+.story img {
+  width: 100px;
+  padding-bottom: 10px; }
+
+.story div.storytext {
+  padding-left: 1em; }
+
+/*BUTTONS*/
+button:hover {
+  background-color: #deeff5; }
+
+button:active {
+  box-shadow: 0 .2em 0 0.1em #696969; }
+
+button:focus {
+  outline: none; }
+
+button.square-button,
+input.square-button {
+  background-color: #4A90E2;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  width: 28em;
+  height: 4em;
+  box-shadow: 3px 3px 3px #696969; }
+
+button.square-button:hover {
+  background-color: blue; }
+
+button.square-button:active {
+  box-shadow: none; }
+
+button p {
+  font-size: 17px;
+  text-align: left;
+  padding: 5px 0 0 18px;
+  margin: 0; }
+
+input.paypal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* EXTRA BOOTSTRAP */
+body {
+  position: relative;
+  min-height: 100%; }
+
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+h1 {
+  margin: 0;
+  font-size: 3em; }
+
+img {
+  border: 0; }
+
+button,
+html input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+html {
+  font-size: 17px;
+  -webkit-tap-highlight-color: transparent; }
+
+/*# sourceMappingURL=styles.css.map */
