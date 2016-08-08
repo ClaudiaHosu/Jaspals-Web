@@ -17,4 +17,4 @@ Volunteers built the first version of the Jaspal's Voice website in a few short 
 The team​ has also been hard at work on an Android app (soon to be launched) that will provide an easy means of communication and education for people afflicted with or interested in learning more about the disease.
 
 ##Women Who Hack for Non-Profits
-This project is part of the great group, Women Who Hack for Non Profits: that matchmakes skilled women in technology to open source projects for non-profits, 
+This project is part of the great group, [Women Who Hack for Non Profits](http://www.womenhackfornonprofits.com/about.html) that matchmakes skilled women in technology to open source projects for non-profits. 
