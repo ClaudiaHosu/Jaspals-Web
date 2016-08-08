@@ -10,9 +10,11 @@ Live at [jaspalsvoice.co.uk](http://jaspalsvoice.co.uk/)
 - AWS
 - Sketch
 
-*UX and Visual Design*: Rayelle Pickersgill
-*Front-end*: Anna Leach
-*Back-end*: Claudia Hosu
+_UX and Visual Design_: Rayelle Pickersgill
+
+_Front-end_: Anna Leach
+
+_Back-end_: Claudia Hosu
 
 ##Jaspal's Voice
 Susan Graham was inspired to create Jaspal's Voice after her sister contracted Motor Neurone Disease and subsequently lost her voice to the disease. 
