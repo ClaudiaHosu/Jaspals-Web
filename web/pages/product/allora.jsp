@@ -25,7 +25,7 @@
       <div class="main-text">
 
         <h3>Product cost </h3>
-        <p>&#163 1675</p>
+        <p>&#163 2550 - &#163 2990 (not incl VAT)</p>
 
         <h3>Tags </h3>
         <span class="tag">Battery-operated</span>
