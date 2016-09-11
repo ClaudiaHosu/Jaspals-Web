@@ -8,16 +8,19 @@
       </div>
     <div class="flex-container">
       <div class="content-box top">
-        <div class="content-text">
-          <h3>Coming soon - Jaspal's Voice app</h3>
-          <p>
-            Virtual mobile which supports Jaspal's communication technique.
-          </p>
-        </div>
-        <div class="content-picture">
-          <img src="${pageContext.request.contextPath}/assets/jv-app-half.png" alt="Jaspals Voice app picture"/>
-        </div>
+        <a href="${pageContext.request.contextPath}/pages/product/medivoice.jsp">
+          <div class="content-text">
+            <h3>Jaspal's Voice app</h3>
+            <p>
+              Medivoice is an Android app that uses the communication techniques discovered by Jaspal.
+            </p>
+          </div>
+          <div class="content-picture">
+            <img src="${pageContext.request.contextPath}/assets/jv-app-half.png" alt="Jaspals Voice app picture"/>
+          </div>
+        </a>
       </div>
+
       <div class="intro">
         <h3> MORE PRODUCTS </h3>
       </div>
@@ -27,7 +30,7 @@
         <div class="content-box small">
           <a href="${pageContext.request.contextPath}/pages/product/allora.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/allora.png" alt="Jaspals Voice photo"/>
+              <img src="${pageContext.request.contextPath}/assets/products/allora.png" alt="Jaspals Voice photo"/>
             </div>
             <div class="content-text">
               <h4>The Allora</h4>
