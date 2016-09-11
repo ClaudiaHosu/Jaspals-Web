@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="col-right">
+        <div class="col-left">
           <div class="textbox mission">
             <p>OUR MISSION</p>
             <p>We provide information and reviews of communication devices for sufferers of motor neurone disease.</p>
@@ -30,6 +30,10 @@
               </button>
             </a>
           </div>
+        </div>
+
+        <div class="col-right">
+          <a class="twitter-timeline" href="https://twitter.com/JaspalsVoice" data-chrome="noheader noborders" data-tweet-limit="5">Tweets by JaspalsVoice</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
     
