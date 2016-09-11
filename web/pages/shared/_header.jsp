@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Jaspal MND ALS mobile products">
     <title>Jaspal's Voice</title>
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon" />
     <link href="http://fonts.googleapis.com/css?family=Cabin" rel='stylesheet' rel='stylesheet' type='text/css'>
