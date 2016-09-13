@@ -7,10 +7,10 @@
       <h1>Products</h1>
       </div>
     <div class="flex-container">
-      <div class="content-box top">
-        <a href="${pageContext.request.contextPath}/pages/product/medivoice.jsp">
+      <a href="${pageContext.request.contextPath}/pages/product/medivoice.jsp">
+        <div class="content-box top">
           <div class="content-text">
-            <h3>Jaspal's Voice app</h3>
+            <h3>Medivoice app</h3>
             <p>
               Medivoice is an Android app that uses the communication techniques discovered by Jaspal.
             </p>
@@ -18,8 +18,8 @@
           <div class="content-picture">
             <img src="${pageContext.request.contextPath}/assets/jv-app-half.png" alt="Jaspals Voice app picture"/>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
       <div class="intro">
         <h3> MORE PRODUCTS </h3>
