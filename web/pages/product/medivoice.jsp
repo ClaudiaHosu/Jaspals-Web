@@ -36,7 +36,7 @@
         </a></p>
 
         <h3>Get a guide to the keyboard</h3>
-        <p><a href="${pageContext.request.contextPath}/assets/products/medivoice-keyboard.pdf" target="_blank">
+        <p><a href="${pageContext.request.contextPath}/assets/products/medivoice-keypad2.png" target="_blank">
           Download a print-friendly guide to the Medivoice keyboard
         </a></p>
 
