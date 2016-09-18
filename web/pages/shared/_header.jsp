@@ -8,13 +8,8 @@
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon" />
     <link href="http://fonts.googleapis.com/css?family=Cabin" rel='stylesheet' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href="${pageContext.request.contextPath}/css/styles.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/header.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/footer.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/layout.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/dropdown.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/stories.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/products.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/application.css" type="text/css" rel="stylesheet">
+
     <script src="${pageContext.request.contextPath}/scripts/jquery.js"></script>
   </head>
   <body>

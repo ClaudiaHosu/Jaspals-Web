@@ -5,7 +5,7 @@
 }
 #header{
     position: relative;
-    width: 100%;
+    @extends %full-width;
     padding-bottom: 0.2em;
     height: 8em;
 }

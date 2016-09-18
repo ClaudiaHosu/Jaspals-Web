@@ -6,7 +6,7 @@
 }
 
  #footer{
-   width: 100%;
+   @extends %full-width;
    background-color: #393939;
    position: relative;
    overflow: auto;
