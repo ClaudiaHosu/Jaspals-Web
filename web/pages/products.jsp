@@ -10,9 +10,9 @@
       <a href="${pageContext.request.contextPath}/pages/product/medivoice.jsp">
         <div class="content-box top">
           <div class="content-text">
-            <h3>Medivoice app</h3>
+            <h3>MediVoice app</h3>
             <p>
-              Medivoice is an Android app that uses the communication techniques discovered by Jaspal.
+              MediVoice is an Android app that uses the communication techniques discovered by Jaspal.
             </p>
           </div>
           <div class="content-picture">
@@ -60,39 +60,7 @@
             </div>
           </a>
         </div>
-        <div class="content-box small">
-          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-            <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/grey-default.jpg" alt="Jaspals Voice photo"/>
-            </div>
-            <div class="content-text">
-              <h4>Product 4</h4>
-              <p>Coming soon... </p>
-            </div>
-          </a>
-        </div>
-        <div class="content-box small">
-          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-            <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/grey-default.jpg" alt="Jaspals Voice photo"/>
-            </div>
-            <div class="content-text">
-              <h4>Product 5</h4>
-              <p> Coming soon... </p>
-            </div>
-          </a>
-        </div>
-        <div class="content-box small">
-          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-            <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/grey-default.jpg" alt="Jaspals Voice photo"/>
-            </div>
-            <div class="content-text">
-              <h4>Product 6</h4>
-              <p> Coming soon... </p>
-            </div>
-          </a>
-        </div>
+
 
       </div>
 

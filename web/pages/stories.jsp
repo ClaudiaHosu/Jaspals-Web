@@ -8,7 +8,7 @@
             </div>
 
             <div class="content-box top">
-                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jaspal-story-picture-wide.jpg" alt="Jaspals Voice story picture"/>
+                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jv-jaspal.png" alt="Jaspals Voice story picture"/>
 
                 <div class="content-text">
                    <h3>JASPAL'S STORY</h3>
@@ -64,39 +64,6 @@
                             <div class="content-text">
                                 <h4>Story 3 </h4>
                                 <p>Coming soon... </p>
-                            </div>
-                        </a>
-                    </div>
-                     <div class="content-box small">
-                         <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-                            <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
-                            </div>
-                            <div class="content-text">
-                                <h4> Story 4 </h4>
-                                <p>Coming soon... </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="content-box small">
-                        <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-                            <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
-                            </div>
-                            <div class="content-text">
-                                <h4>Story 5 </h4>
-                                <p> Coming soon... </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="content-box small">
-                        <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-                            <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
-                            </div>
-                            <div class="content-text">
-                                <h4>Story 6 </h4>
-                                <p> Coming soon... </p>
                             </div>
                         </a>
                     </div>

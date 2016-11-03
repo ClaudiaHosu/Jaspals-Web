@@ -34,6 +34,7 @@
         <p><a href="https://play.google.com/store/apps/details?id=uk.co.medivoice.jv" target="_blank">
           Medivoice on the Google Play Store
         </a></p>
+        <p>iOS verion coming soon!</p>
 
         <h3>Get a guide to the keyboard</h3>
         <p><a href="${pageContext.request.contextPath}/assets/products/medivoice-keypad2.png" target="_blank">
