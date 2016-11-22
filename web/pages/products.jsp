@@ -39,24 +39,24 @@
           </a>
         </div>
         <div class="content-box small">
-          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
+          <a href="${pageContext.request.contextPath}/pages/product/gridpad.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/grey-default.jpg" alt="Jaspals Voice photo"/>
+              <img src="${pageContext.request.contextPath}/assets/products/gridpad.png" alt="Gridpad"/>
             </div>
             <div class="content-text">
-              <h4>Product 2</h4>
-              <p>Coming soon... </p>
+              <h4>Gridpad</h4>
+              <p>The Grid Pad Pro is a touch screen Windows tablet</p>
             </div>
           </a>
         </div>
         <div class="content-box small">
-          <a href="${pageContext.request.contextPath}/pages/contact.jsp">
+          <a href="${pageContext.request.contextPath}/pages/product/megabee.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/grey-default.jpg" alt="Jaspals Voice photo"/>
+              <img src="${pageContext.request.contextPath}/assets/products/megabee.jpg" alt="Megabee"/>
             </div>
             <div class="content-text">
-              <h4>Product 3</h4>
-              <p>Coming soon... </p>
+              <h4>Megabee</h4>
+              <p>Megabee is a device that lets a conversation partner record eye movements.</p>
             </div>
           </a>
         </div>

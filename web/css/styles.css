@@ -72,9 +72,11 @@ input.square-button{
   color: #ffffff;
   border-radius: 0;
   border:none;
-  width: 22em;
-  height: 4em;
+  width: 20em;
+  height: 3em;
   box-shadow: 3px 3px 3px #696969;
+  font-size: 1em;
+  font-family: 'Lato', 'Helvetica';
 }
 button.square-button:hover{
   background-color: blue;
