@@ -33,7 +33,7 @@
         </div>
 
         <div class="col-right">
-          <a class="twitter-timeline" href="https://twitter.com/JaspalsVoice" data-chrome="noheader noborders" data-tweet-limit="5">Tweets by JaspalsVoice</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a class="twitter-timeline" href="https://twitter.com/JaspalsVoice" data-chrome="noheader noborders" data-tweet-limit="2">Tweets by JaspalsVoice</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
     
