@@ -45,28 +45,6 @@
                             </div>
                         </a>
                     </div>
-                    <div class="content-box small">
-                        <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-                            <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
-                            </div>
-                            <div class="content-text">
-                                <h4>Story 2 </h4>
-                                <p>Coming soon... </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="content-box small">
-                        <a href="${pageContext.request.contextPath}/pages/contact.jsp">
-                            <div class="story-picture">
-                                <img src="${pageContext.request.contextPath}/assets/blue-default.jpg" alt="Jaspals Voice photo"/>
-                            </div>
-                            <div class="content-text">
-                                <h4>Story 3 </h4>
-                                <p>Coming soon... </p>
-                            </div>
-                        </a>
-                    </div>
 
             </div>
 
