@@ -8,7 +8,7 @@
             </div>
 
             <div class="content-box top">
-                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jv-jaspal.png" alt="Jaspals Voice story picture"/>
+                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jv-jaspal small.png" alt="Jaspals Voice story picture"/>
 
                 <div class="content-text">
                    <h3>JASPAL'S STORY</h3>

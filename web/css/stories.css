@@ -50,8 +50,8 @@ section.stories #boxes *{
     min-width: 250px;
 }
 .top img.content-picture {
-    width: 40%;
-    margin-left: 30%;
+    /*width: 40%;*/
+    margin-left: 40%;
 }
 
 /*STORY GRID */

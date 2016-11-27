@@ -16,7 +16,7 @@
             </p>
           </div>
           <div class="content-picture">
-            <img src="${pageContext.request.contextPath}/assets/jv-app-half.png" alt="Jaspals Voice app picture"/>
+            <img src="${pageContext.request.contextPath}/assets/medivoice-app-half.png" alt="Jaspals Voice app picture"/>
           </div>
         </div>
       </a>
