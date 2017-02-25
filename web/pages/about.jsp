@@ -12,7 +12,7 @@
       <div class="flex-container">
           <div class="col-right">
             <div class="picturebox">
-              <img src="../assets/jv-jaspal.png" alt="Photo of Jaspal">
+              <img src="../images/jv-jaspal.png" alt="Photo of Jaspal">
             </div>
           </div>
 
@@ -34,7 +34,7 @@
 
               <div class="author">
                 <div class="author-picture">
-                  <img src="../assets/jv-susan.png" alt="Susan Graham Jaspals Voice founder"/>
+                  <img src="../images/jv-susan.png" alt="Susan Graham Jaspals Voice founder"/>
                 </div>
                 <div class="author-text">
                   <p><strong>Susan Graham</strong></p>

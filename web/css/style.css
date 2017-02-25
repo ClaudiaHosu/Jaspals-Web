@@ -111,7 +111,7 @@ margin: 0;
 ul.info li p.social a.tw{
 width: 28px;
 height: 28px;
-background: url(../assets/social.png) left top no-repeat;
+background: url(../images/social.png) left top no-repeat;
 margin-right: 8px;
 float: left;
 }
@@ -119,7 +119,7 @@ float: left;
 ul.info li p.social a.tw:hover{
 width: 28px;
 height: 28px;
-background: url(../assets/social.png) left bottom no-repeat;
+background: url(../images/social.png) left bottom no-repeat;
 float: left;
 }
 

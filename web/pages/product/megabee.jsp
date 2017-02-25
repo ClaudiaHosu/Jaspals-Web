@@ -22,7 +22,7 @@
         </strong></p>
       </div>
       <div class="content-picture">
-        <img src="${pageContext.request.contextPath}/assets/products/megabee.jpg" alt="Megabee communication device"/>
+        <img src="${pageContext.request.contextPath}/images/megabee.jpg" alt="Megabee communication device"/>
       </div>
     </div>
     <div class ="other-content">

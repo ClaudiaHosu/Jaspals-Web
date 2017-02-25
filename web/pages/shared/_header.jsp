@@ -26,7 +26,7 @@
           <div class="logo area">
             <div>
               <a href="${pageContext.request.contextPath}/pages/home.jsp">
-                <img src="${pageContext.request.contextPath}/assets/jv-header-logo.png">
+                <img src="${pageContext.request.contextPath}/images/jv-header-logo.png">
               </a>
             </div>
           </div>

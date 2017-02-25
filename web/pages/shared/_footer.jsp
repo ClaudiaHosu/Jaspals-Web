@@ -12,7 +12,7 @@
               <div class="bottom-nav-content">
                   <div>
                       <a href="${pageContext.request.contextPath}/pages/home.jsp">
-                          <img class="logo" src="${pageContext.request.contextPath}/assets/jv-footer-logo.png">
+                          <img class="logo" src="${pageContext.request.contextPath}/images/jv-footer-logo.png">
                       </a>
                   </div>
                   <div>
@@ -20,8 +20,8 @@
                   </div>
 
                   <div id="social">
-                      <a href="https://twitter.com/JaspalsVoice" target="_blank"><img src="${pageContext.request.contextPath}/assets/twitter-footer.png"></a>
-                      <a href="https://www.facebook.com/JaspalsVoice/" target="_blank"><img src="${pageContext.request.contextPath}/assets/facebook-footer.png"></a>
+                      <a href="https://twitter.com/JaspalsVoice" target="_blank"><img src="${pageContext.request.contextPath}/images/twitter-footer.png"></a>
+                      <a href="https://www.facebook.com/JaspalsVoice/" target="_blank"><img src="${pageContext.request.contextPath}/images/facebook-footer.png"></a>
                   </div>
               </div>
           </div>

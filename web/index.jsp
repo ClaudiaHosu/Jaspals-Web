@@ -1,1 +1,1 @@
-<jsp:forward page="pages/home.jsp" />
+<jsp:forward page="${pageContext.request.contextPath}/pages/home.jsp" />

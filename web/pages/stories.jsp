@@ -8,7 +8,7 @@
             </div>
 
             <div class="content-box top">
-                <img class="content-picture" src="${pageContext.request.contextPath}/assets/jv-jaspal small.png" alt="Jaspals Voice story picture"/>
+                <img class="content-picture" src="${pageContext.request.contextPath}/images/jv-jaspal small.png" alt="Jaspals Voice story picture"/>
 
                 <div class="content-text">
                    <h3>JASPAL'S STORY</h3>
@@ -37,7 +37,7 @@
                     <div class="content-box small">
                         <a href="${pageContext.request.contextPath}/pages/story/rajen.jsp">
                             <div class="content-picture">
-                                <img src="${pageContext.request.contextPath}/assets/rajen-story-picture.jpg" alt="Jaspals Voice photo"/>
+                                <img src="${pageContext.request.contextPath}/images/rajen-story-picture.jpg" alt="Jaspals Voice photo"/>
                             </div>
                             <div class="content-text">
                                 <h4>Rajen's Story</h4>

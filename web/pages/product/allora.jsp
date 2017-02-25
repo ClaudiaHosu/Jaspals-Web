@@ -18,7 +18,7 @@
         </strong></p>
       </div>
       <div class="content-picture">
-        <img src="${pageContext.request.contextPath}/assets/products/allora.png" alt="Allora communication device"/>
+        <img src="${pageContext.request.contextPath}/images/allora.png" alt="Allora communication device"/>
       </div>
     </div>
     <div class ="other-content">

@@ -22,7 +22,7 @@
         </strong></p>
       </div>
       <div class="content-picture">
-        <img src="${pageContext.request.contextPath}/assets/products/gridpad.png" alt="Gridpad communication device"/>
+        <img src="${pageContext.request.contextPath}/images/gridpad.png" alt="Gridpad communication device"/>
       </div>
     </div>
     <div class ="other-content">

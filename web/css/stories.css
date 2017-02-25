@@ -164,7 +164,7 @@ section.stories #boxes *{
 }
 .story1 #boxes button.square-button p {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   margin-left: 1em;
 }
 /* DONATE COLUMN */

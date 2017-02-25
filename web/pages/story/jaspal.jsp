@@ -10,7 +10,7 @@
 
     <div class="content-box top">
       <div class="content-picture">
-        <img src="${pageContext.request.contextPath}/assets/jv-jaspal.png" alt="Jaspals Voice story picture"/>
+        <img src="${pageContext.request.contextPath}/images/jv-jaspal.png" alt="Jaspals Voice story picture"/>
       </div>
       <div class="story-text">
         <p><strong>

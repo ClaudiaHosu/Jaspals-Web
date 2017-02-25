@@ -16,7 +16,7 @@
             </p>
           </div>
           <div class="content-picture">
-            <img src="${pageContext.request.contextPath}/assets/medivoice-app-half.png" alt="Jaspals Voice app picture"/>
+            <img src="${pageContext.request.contextPath}/images/medivoice-app-half.png" alt="Jaspals Voice app picture"/>
           </div>
         </div>
       </a>
@@ -30,7 +30,7 @@
         <div class="content-box small">
           <a href="${pageContext.request.contextPath}/pages/product/allora.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/products/allora.png" alt="Jaspals Voice photo"/>
+              <img src="${pageContext.request.contextPath}/images/allora.png" alt="Jaspals Voice photo"/>
             </div>
             <div class="content-text">
               <h4>The Allora</h4>
@@ -41,7 +41,7 @@
         <div class="content-box small">
           <a href="${pageContext.request.contextPath}/pages/product/gridpad.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/products/gridpad.png" alt="Gridpad"/>
+              <img src="${pageContext.request.contextPath}/images/gridpad.png" alt="Gridpad"/>
             </div>
             <div class="content-text">
               <h4>Gridpad</h4>
@@ -52,7 +52,7 @@
         <div class="content-box small">
           <a href="${pageContext.request.contextPath}/pages/product/megabee.jsp">
             <div class="content-picture">
-              <img src="${pageContext.request.contextPath}/assets/products/megabee.jpg" alt="Megabee"/>
+              <img src="${pageContext.request.contextPath}/images/megabee.jpg" alt="Megabee"/>
             </div>
             <div class="content-text">
               <h4>Megabee</h4>

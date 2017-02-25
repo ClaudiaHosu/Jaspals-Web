@@ -14,5 +14,4 @@
         <url-pattern>/StoriesServlet</url-pattern>
     </servlet-mapping>
 
-
 </web-app>
