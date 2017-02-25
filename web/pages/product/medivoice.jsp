@@ -17,7 +17,7 @@
         </strong></p>
       </div>
       <div class="content-picture">
-        <img src="${pageContext.request.contextPath}/images/medivoice1.png" alt="Medivoice Android app"/>
+        <img src="${pageContext.request.contextPath}/images/medivoice-keyboard.png" alt="Medivoice Android app"/>
       </div>
     </div>
     <div class ="other-content">
@@ -37,7 +37,7 @@
         <p>iOS verion coming soon!</p>
 
         <h3>Get a guide to the keyboard</h3>
-        <p><a href="${pageContext.request.contextPath}/images/medivoice-keypad2.png/products/medivoice-keypad2.png" target="_blank">
+        <p><a href="${pageContext.request.contextPath}/images/medivoice-keyboard.png" target="_blank">
           Download a print-friendly guide to the Medivoice keyboard
         </a></p>
 
@@ -68,7 +68,7 @@
           "hello" is 43556.
         </p>
 
-        <img src="${pageContext.request.contextPath}/images/medivoice1.png" alt="Medivoice Android app" width="200px"/>
+        <img src="${pageContext.request.contextPath}/images/medivoice-keyboard.png" alt="Medivoice Android app" width="200px"/>
 
         <p>
           The app comes with a 4,000 word dictionary but there are always new words or names that don't exist. In order
