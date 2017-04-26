@@ -49,6 +49,7 @@
           <a href="${pageContext.request.contextPath}/pages/about.jsp"><li id="about">ABOUT US</li></a>
           <a href="${pageContext.request.contextPath}/pages/products.jsp"><li id="products">PRODUCTS</li></a>
           <a href="${pageContext.request.contextPath}/pages/stories.jsp"><li id="menu-stories">STORIES</li></a>
+          <a href="http://jaspalsvoice.co.uk/web/blog/"><li id="blog">BLOG</li></a>
           <a href="${pageContext.request.contextPath}/pages/volunteer.jsp"><li id="volunteer">GET INVOLVED</li></a>
           <a href="${pageContext.request.contextPath}/pages/faq.jsp"><li id="faq">FAQ</li></a>
           <a href="${pageContext.request.contextPath}/pages/donate.jsp"><li id="donate">DONATE</li></a>
